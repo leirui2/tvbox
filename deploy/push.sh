@@ -6,7 +6,8 @@
 # (cnb.cool / GitHub / 自建 Gitea 均可), 这样 TVBox 直接读 raw 地址即可。
 #
 # 必需的环境变量(建议写在 /opt/tvbox/deploy/push.env):
-#   GIT_REMOTE   远端名, 默认 origin
+#   GIT_REMOTE   远端名, 默认 origin; 支持多个, 空格分隔(如 "cnb github")
+#                多远程会依次推送, 任一失败不影响其它
 #   GIT_BRANCH   分支,   默认 main
 #   REPO_DIR     git 仓库目录, 默认 /opt/tvbox
 #
@@ -18,12 +19,13 @@ set -uo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_DIR="${REPO_DIR:-$(dirname "$SCRIPT_DIR")}"
-GIT_REMOTE="${GIT_REMOTE:-origin}"
-GIT_BRANCH="${GIT_BRANCH:-main}"
 LOG_FILE="${LOG_FILE:-/var/log/tvbox-push.log}"
 
-# 加载可选的环境配置
+# 加载可选的环境配置(必须在计算 GIT_* 默认值之前, 否则 push.env 里的远程名/令牌不生效)
 [ -f "$REPO_DIR/deploy/push.env" ] && . "$REPO_DIR/deploy/push.env"
+
+GIT_REMOTES="${GIT_REMOTES:-${GIT_REMOTE:-origin}}"   # 可多个: "cnb github"
+GIT_BRANCH="${GIT_BRANCH:-main}"
 
 # ---- 认证: HTTPS + Personal Access Token ----
 # ⚠ 令牌**不写死在脚本里**(公开仓库会泄露)。按以下优先级取值:
@@ -85,11 +87,14 @@ PY
 git commit -q -m "chore: 自动更新源 $(date '+%F %H:%M') | $STATS" \
     || { log "提交失败"; exit 1; }
 
-# ---- 推送 ----
-if git $GIT_AUTH push "$GIT_REMOTE" "HEAD:$GIT_BRANCH" >>"$LOG_FILE" 2>&1; then
-    log "推送成功 -> $GIT_REMOTE/$GIT_BRANCH | $STATS"
-    exit 0
-else
-    log "推送失败(不影响已生成的源文件, 详见 $LOG_FILE)"
-    exit 1
-fi
+# ---- 推送(支持多个远程, 空格分隔; 依次推送, 任一失败不影响其它) ----
+FAIL=0
+for REMOTE in $GIT_REMOTES; do
+    if git $GIT_AUTH push "$REMOTE" "HEAD:$GIT_BRANCH" >>"$LOG_FILE" 2>&1; then
+        log "推送成功 -> $REMOTE/$GIT_BRANCH | $STATS"
+    else
+        log "推送失败 -> $REMOTE (不影响已生成的源文件, 详见 $LOG_FILE)"
+        FAIL=1
+    fi
+done
+exit "$FAIL"

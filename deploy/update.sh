@@ -49,7 +49,10 @@ cd "$APP_DIR" || { log "ERROR: 无法进入 $APP_DIR"; exit 1; }
 # 默认开启; 不想拉取可在环境变量设 ENABLE_PULL=0。
 # 令牌不写死在脚本里: 取环境变量 GIT_TOKEN 或 deploy/push.env(已在 .gitignore),
 # 通过 -c url...insteadOf 临时注入, 不写进 .git/config。
-GIT_REMOTE="${GIT_REMOTE:-origin}"
+# 先载入 push.env, 否则下面算 GIT_* 时拿不到远程名和令牌。
+[ -f "$APP_DIR/deploy/push.env" ] && . "$APP_DIR/deploy/push.env"
+GIT_REMOTES="${GIT_REMOTES:-${GIT_REMOTE:-origin}}"   # 可多个: "cnb github"
+PULL_REMOTE="${GIT_REMOTES%% *}"      # 多远程时只从第一个拉取(内容一致)
 GIT_BRANCH="${GIT_BRANCH:-main}"
 GIT_USER="${GIT_USER:-$(git config user.name 2>/dev/null || echo cnb)}"
 GIT_TOKEN="${GIT_TOKEN:-}"
@@ -59,7 +62,7 @@ if [ -n "$GIT_TOKEN" ]; then
     GIT_AUTH="-c url.https://${GIT_USER}:${GIT_TOKEN}@${GIT_HOST}/.insteadOf=https://${GIT_HOST}/"
 fi
 if [ "${ENABLE_PULL:-1}" = "1" ] && git rev-parse --git-dir >/dev/null 2>&1; then
-    if git $GIT_AUTH pull --rebase --autostash "$GIT_REMOTE" "$GIT_BRANCH" >>"$LOG_FILE" 2>&1; then
+    if git $GIT_AUTH pull --rebase --autostash "$PULL_REMOTE" "$GIT_BRANCH" >>"$LOG_FILE" 2>&1; then
         log "已拉取远端最新 ($GIT_BRANCH)"
     else
         log "PULL 未成功(继续构建, 不影响本地源文件)"
