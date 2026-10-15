@@ -1,0 +1,487 @@
+{
+  "spider": "http://cdn.qiaoji8.com/fix251212.jar;md5;31542aefeb80f62c8c7c9d1d5e0a6036",
+  "homeLogo": "https://miaobi-lite.cdn.bcebos.com/miaobi/5mao/b'ceWuneWktOWDj18xNzI5OTgyMDUxLjcwMjY5NTE='/0.png",
+  "wallpaper": "https://bing.img.run/uhd.php",
+  "sites": [
+    {
+      "key": "basbas",
+      "name": "单机切换😶长安刷新",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/menba/raw/master/basbas.js?metadata=eyJyIjoibWFzdGVyIiwiZnAiOiJiYXNiYXMuanMiLCJ1aWQiOjE2NTA4OTk0LCJwaWQiOjQzOTg5NjcwLCJzdG8iOiJnaXQtc2hhcmRpbmctc3RvLTQydC0wMDMiLCJycCI6InJlcG9zL2I5LzRlL2I5NGVmOTQyYzQyNDMyYmNiNTgyYjkxMmJjNzM2ZmVlNjdhM2Q4NzEwODFjMTRhNmYwYmRjYzhjZjY1ODNhOGUuZ2l0IiwiaXNwIjp0cnVlLCJleHBpcmVfYXQiOjE3ODIyMjYyMDB9&signature=2wbLiEhmv6eFlQgvwifwII1EbaPBwJ_fv5Dqm8tY3qk"
+    },
+    {
+      "key": "saskin",
+      "name": "ساسكىن",
+      "type": 3,
+      "api": "https://codeberg.org/alimu1/tvbox/raw/branch/main/lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 1314,
+      "ext": "https://gitee.com/sarag12/kino/raw/kino/js1/xaxboway.js"
+    },
+    {
+      "key": "anarkiz",
+      "name": "ئانار قىز",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://gitee.com/eynak/menba/raw/master/anarkiz.js"
+    },
+    {
+      "key": "ahnur",
+      "name": "ئاقنۇر",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://gitee.com/eynak/menba/raw/master/ahnur.js"
+    },
+    {
+      "key": "arka",
+      "name": "ئاركا",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/arka.js"
+    },
+    {
+      "key": "balkan",
+      "name": "بالكان",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/balkan.js"
+    },
+    {
+      "key": "jxbk",
+      "name": "كەتمەن",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/jxbk.js"
+    },
+    {
+      "key": "kapzor",
+      "name": "كاپزور",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/kapzor.js"
+    },
+    {
+      "key": "karmay",
+      "name": "قارىماي",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/karmay.js"
+    },
+    {
+      "key": "kikas",
+      "name": "قىقاس",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/kikas.js"
+    },
+    {
+      "key": "kulrang",
+      "name": "كۈلرەڭ",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/kulrang.js"
+    },
+    {
+      "key": "kuyzar",
+      "name": "كۈيزار",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/kuyzar.js"
+    },
+    {
+      "key": "nazim",
+      "name": "نازىم",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/nazim.js"
+    },
+    {
+      "key": "nurli",
+      "name": "نۇرلى",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/nurli.js"
+    },
+    {
+      "key": "ot",
+      "name": "ئوت",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/ot.js"
+    },
+    {
+      "key": "pilqak",
+      "name": "پىلچاق",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/pilqak.js"
+    },
+    {
+      "key": "segiz",
+      "name": "سېغىز",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/segiz.js"
+    },
+    {
+      "key": "soltak",
+      "name": "ماڭقا",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/soltak.js"
+    },
+    {
+      "key": "tahtay",
+      "name": "پەنەركە",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/tahtay.js"
+    },
+    {
+      "key": "tizqak",
+      "name": "تىزچاق",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/tizqak.js"
+    },
+    {
+      "key": "tvbox",
+      "name": "بولقا",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/tvbox.js"
+    },
+    {
+      "key": "zilzar",
+      "name": "زىلزار",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/zilzar.js"
+    },
+    {
+      "key": "zulfi",
+      "name": "زۇلفى",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/zulfi.js"
+    },
+    {
+      "key": "tulum",
+      "name": "تۇلۇم ئەسەر",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://codeberg.org/Eynak/JsTop/raw/branch/main/tulum.js"
+    },
+    {
+      "key": "kixmix",
+      "name": "كىشمىش🔥",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/kixmix.js"
+    },
+    {
+      "key": "koznak",
+      "name": "كۆزنەك🔥",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/koznak.js"
+    },
+    {
+      "key": "kixqak",
+      "name": "ئالما🔥",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/Kixqak.js"
+    },
+    {
+      "key": "dilkan",
+      "name": "دىلكان🔥",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/dilkan.js"
+    },
+    {
+      "key": "Torqak",
+      "name": "短剧🔥Torqak",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/Torqak.js"
+    },
+    {
+      "key": "zba",
+      "name": "زىبا🔥",
+      "type": 3,
+      "api": "https://gitee.com/eynak/ulanma/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.giteeusercontent.com/eynak/jsmanba/raw/master/ziba.js"
+    }
+  ],
+  "parses": [
+    {
+      "name": "解析聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Json轮询",
+      "type": 2,
+      "url": "Sequence"
+    },
+    {
+      "name": "巧技",
+      "type": 1,
+      "url": "https://zy.qiaoji8.com/neibu.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "巧技二",
+      "type": 1,
+      "url": "https://zy.qiaoji8.com/gouzi.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905",
+          "NetFilx"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "巧技三",
+      "type": 1,
+      "url": "https://zy.qiaoji8.com/xiafan.php?url=",
+      "ext": {
+        "flag": [
+          "QD4K",
+          "iyf",
+          "duanju",
+          "gzcj",
+          "GTV",
+          "GZYS",
+          "weggz",
+          "Ace"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "QQ",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "pptv",
+    "PPTV",
+    "mgtv",
+    "wasu",
+    "bilibili",
+    "m1905",
+    "seven",
+    "m78",
+    "mtv",
+    "sjs",
+    "dbs",
+    "yds",
+    "HNB",
+    "JL4K"
+  ],
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "analyzemaxduration",
+          "value": "1000000"
+        }
+      ]
+    }
+  ]
+}

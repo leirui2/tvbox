@@ -1,0 +1,18 @@
+[Unit]
+Description=TVBox 源自动构建与存活探测
+After=network-online.target
+Wants=network-online.target
+
+# 复制到 /etc/systemd/system/ 前, 把下面路径与 User/Group 改成你自己的。
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/tvbox
+ExecStart=/opt/tvbox/deploy/update.sh
+# 构建给足时间(探测多源较慢), 但避免无限挂住
+TimeoutStartSec=1800
+# 用普通用户跑, 不需要 root
+User=youruser
+Group=yourgroup
+
+[Install]
+WantedBy=multi-user.target

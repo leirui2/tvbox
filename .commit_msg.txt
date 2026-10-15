@@ -1,0 +1,8 @@
+security: 仓库去凭证化, 可安全公开
+
+- deploy/push.sh与update.sh 不再写死 git 令牌, 改从环境变量或 deploy/push.env 读取(该文件已 gitignore)
+- notify.py 移除硬编码企业微信 bot_id/secret, 改为 notify_config.json 或 TVBOX_BOT_ID/TVBOX_BOT_SECRET 环境变量, 缺凭证时给明确提示
+- .gitignore 修正拼写错误(notify_conf.json -> notify_config.json), 并忽略 deploy/*.env, 新增 notify_config.json/.idea 规则
+- notify_config.json 与 .idea/ 移出git 跟踪(本地文件保留)
+- DEPLOY.md: 删令牌明文, 改用 SSH deploy key 或 push.env; 用户名与服务器路径泛化; 新增凭证存放位置一览表
+- deploy/*.service: 路径与 User/Group 改为占位符, 并在文档里提示复制后自行替换

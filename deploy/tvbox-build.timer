@@ -1,0 +1,14 @@
+[Unit]
+Description=定时重建 TVBox 源(周一、周五凌晨 3:00)
+Requires=tvbox-build.service
+
+[Timer]
+# 每周一、周五凌晨 3:00 触发
+OnCalendar=Mon,Fri *-*-* 03:00:00
+# 服务器关机错过的任务, 开机后补跑一次
+Persistent=true
+# 随机延迟最多 10 分钟, 进一步分散请求
+RandomizedDelaySec=600
+
+[Install]
+WantedBy=timers.target

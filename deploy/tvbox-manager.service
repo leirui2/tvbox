@@ -1,0 +1,20 @@
+[Unit]
+Description=TVBox 源管理后台 (Web 上传/抓取/一键重建)
+After=network.target
+Wants=network.target
+
+# 复制到 /etc/systemd/system/ 前, 把下面两行路径与 User/Group 改成你自己的:
+# 项目绝对路径(两处必须一致) + 运行用户名。
+[Service]
+Type=simple
+WorkingDirectory=/opt/tvbox
+ExecStart=/usr/bin/python3 /opt/tvbox/manage.py --host 0.0.0.0 --port 8787
+Restart=on-failure
+RestartSec=5
+User=youruser
+Group=yourgroup
+Environment=PYTHONIOENCODING=utf-8
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
