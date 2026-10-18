@@ -1,56 +1,25 @@
-# TVBox 源探测报告  (2026-10-16 03:10:15)
+# TVBox 源探测报告  (2026-10-19 03:01:47)
 
-- 点播 sites: 存活 **400** / 失效 **250** / 客户端依赖 **4082**
-- 直播 lives: 存活 **102** / 失效 **109**
-- 解析 parses: 存活 **64** / 失效 **175**
-- 相比上次: 恢复 **40** 个 / 新增失效 **3** 个
+- 点播 sites: 存活 **389** / 失效 **261** / 客户端依赖 **4082**
+- 直播 lives: 存活 **100** / 失效 **111**
+- 解析 parses: 存活 **67** / 失效 **172**
+- 相比上次: 恢复 **3** 个 / 新增失效 **9** 个
 
 ## 本次恢复的源 (上次失效, 这次活了)
+- `6号解析`
+- `18号解析`
+- `闪电`
+
+## 本次新失效的源 (上次还活着)
 - `❤更新10-05❤`
 - `🎁4K影视JS`
 - `🎁4K影视py`
-- `青麦`
-- `🎉魔都|采集`
-- `🎉最大|采集`
-- `🎉无尽|采集`
-- `🎉OK|采集`
-- `🎉U酷|采集`
 - `🥇四影｜影视`
-- `🐉┃索尼┃高清`
-- `闪电｜采集`
-- `无尽｜采集`
-- `永乐`
-- `界影`
-- `采集`
-- `🧞暴风┃短剧`
-- `丫丫资源┃刺桐`
-- `豪华资源┃刺桐`
-- `OK资源┃刺桐`
-- `U酷资源┃刺桐`
-- `无尽资源┃刺桐`
-- `火狐资源┃刺桐`
-- `💝分享魔都`
-- `💝分享百度`
-- `A站｜星源`
-- `B站直播`
-- `YY轮播`
+- `爱奇艺资源┃刺桐`
+- `豆瓣|推荐`
+- `💖分享异果`
 - `安忆收集1`
-- `Gather「果」`
-- `YOUTUBE音乐`
-- `5号解析`
-- `看看`
-- `Gather「果」`
-- `如果失效等候更新或者在线更新本地包防失效`
-- `m3u8-ttbfp1`
-- `BL`
-- `🐱手动点击诺讯`
-- `fuqi`
-- `线路NX`
-
-## 本次新失效的源 (上次还活着)
-- `💝分享官源`
-- `18号解析`
-- `闪电`
+- `Tianmu`
 
 ## 远程源健康 (dc.txt 连续拉取失败已达阈值, 建议移除)
 以下条目后续构建不再抓取(仍用本地缓存), 缓存会越来越旧, 建议尽快从 dc.txt 删除:
@@ -110,7 +79,11 @@
 - `🍨饭硬专线` — 连续失败 5 次, 最后失败 2026-10-13 14:45:53  url: http://www.饭太硬.cc/tv
 
 ## 点播失效源
+- `❤更新10-05❤` — conn_error (status=-1) url: https://cdn.jsdmirror.com/gh/1539971456/ys-tvbox@main/js/%E8%B1%86%E7%93%A3.js
 - `🎬看剧AI|多线` — blacklisted (status=0) url: https://cdn.jsdmirror.com/gh/1539971456/ys-tvbox@main/py/看剧ai.py
+- `🎬高清|多线` — conn_error (status=-1) url: https://cdn.jsdmirror.com/gh/1539971456/ys-tvbox@main/py/%E9%AB%98%E6%B8%85%E7%82%B9%E6%92%AD4K.py
+- `🎬青麦|秒播` — conn_error (status=-1) url: https://cdn.jsdmirror.com/gh/1539971456/ys-tvbox@main/py/%E9%9D%92%E9%BA%A6%E5%BD%B1%E8%A7%86.py
+- `🎬腾爱优|解析` — conn_error (status=-1) url: https://cdn.jsdmirror.com/gh/1539971456/ys-tvbox@main/js/%E8%85%BE%E7%88%B1%E4%BC%98b%E7%AB%99%E5%86%85%E7%BD%AE%E9%87%87%E9%9B%86.js
 - `🎉红牛|采集` — blacklisted (status=0) url: https://fdwk.huangjiaju.ccwu.cc/p/hongniuzy2?url=https%3A%2F%2Fwww.hongniuzy2.com%2Fapi.php%2Fprovide%2Fvod
 - `🎉新浪|采集` — blacklisted (status=0) url: https://fdwk.huangjiaju.ccwu.cc/p/xinlangapi?url=https%3A%2F%2Fapi.xinlangapi.com%2Fxinlangapi.php%2Fprovide%2Fvod
 - `🎉金鹰|采集` — blacklisted (status=0) url: https://fdwk.huangjiaju.ccwu.cc/p/jinying?url=https%3A%2F%2Fjinyingzy.com%2Fapi.php%2Fprovide%2Fvod
@@ -120,8 +93,10 @@
 - `🎉暴风|采集` — blacklisted (status=0) url: https://fdwk.huangjiaju.ccwu.cc/p/bf?url=https%3A%2F%2Fbfzyapi.com%2Fapi.php%2Fprovide%2Fvod
 - `🎉百度y|采集` — blacklisted (status=0) url: https://fdwk.huangjiaju.ccwu.cc/p/apibdzy?url=https%3A%2F%2Fapi.apibdzy.com%2Fapi.php%2Fprovide%2Fvod
 - `🥇荐片｜影视` — blacklisted (status=0) url: https://cdn.jsdmirror.com/gh/1539971456/ys-tvbox@main/js/荐片.js
+- `🥇四影｜影视` — conn_error (status=-1) url: https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/4Kvm.js
 - `🤣魔都┃动漫` — blacklisted (status=0) url: https://caiji.moduapi.cc/api.php/provide/vod/
-- `🤣路漫漫┃动漫` — http_404 (status=404) url: https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js
+- `🤣路漫漫┃动漫` — conn_error (status=-1) url: https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js
+- `🌸梨园丨戏曲` — conn_error (status=-1) url: https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/liyuan_xi.js
 - `⚽聚合｜球赛` — blacklisted (status=0) url: https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/体育聚合.js
 - `👶聚合丨儿童` — blacklisted (status=0) url: https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/erge_juhe.js
 - `👶聚合丨知识` — blacklisted (status=0) url: https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/zhishi_juhe.js
@@ -171,6 +146,8 @@
 - `⛱┃可可┃采集` — blacklisted (status=0) url: https://kekezy1.com/api.php/provide/vod/?ac=list
 - `🌪️暴风影音` — blacklisted (status=0) url: https://app.bfzyapi.com/api.php/provide/vod/
 - `🎶明星┃MV` — blacklisted (status=0) url: https://mv.wogg.link/mv/vod
+- `🎁4K影视JS` — conn_error (status=-1) url: https://cdn.jsdmirror.com/gh/1539971456/ys-tvbox@main/js/4kvm.js
+- `🎁4K影视py` — conn_error (status=-1) url: https://cdn.jsdmirror.com/gh/1539971456/ys-tvbox@main/py/4kvm.py
 - `🥇荐片｜影视` — blacklisted (status=0) url: https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/荐片.js
 - `🥇毒舌｜影视` — blacklisted (status=0) url: https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/毒舌影视.js
 - `🥇永乐｜影视` — blacklisted (status=0) url: https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/永乐视频.js
@@ -297,6 +274,7 @@
 - `速博资源┃刺桐` — blacklisted (status=0) url: https://subocaiji.com/api.php/provide/vod/
 - `魔都动漫┃刺桐` — blacklisted (status=0) url: https://caiji.moduapi.cc/api.php/provide/vod/
 - `奇虎资源┃刺桐` — blacklisted (status=0) url: https://caiji.qhzyapi.com/api.php/provide/vod/
+- `爱奇艺资源┃刺桐` — http_503 (status=503) url: https://iqiyizyapi.com/api.php/provide/vod/
 - `789资源┃刺桐` — blacklisted (status=0) url: http://www.caiji.cyou/api.php/provide/vod/
 - `金蝉资源┃刺桐` — blacklisted (status=0) url: https://zy.jinchancaiji.com/api.php/provide/vod/
 - `腾腾｜视频` — blacklisted (status=0) url: https://file.zhangyichi.dev/uploads/695cb6347d0b1_1767683636.js
@@ -315,6 +293,7 @@
 - `量子` — blacklisted (status=0) url: http://127.0.0.1:10079/p/0/proxy/http://cj.lziapi.com/api.php/provide/vod/?
 - `非凡` — blacklisted (status=0) url: http://127.0.0.1:10079/p/0/proxy/http://cj.ffzyapi.com/api.php/provide/vod/?
 - `豆瓣 | 采集` — blacklisted (status=0) url: https://caiji.dbzy.tv/api.php/provide/vod/from/dbm3u8/at/josn/
+- `豆瓣|推荐` — conn_error (status=-1) url: https://api.hgyx.vip/HGBOX/JS/lib/drpy.min.js
 - `HG影视（备用)` — blacklisted (status=0) url: http://cs.hgyx.vip/api/provide/vod/at/xml/
 - `🐝夸克资源` — blacklisted (status=0) url: http://kuakezy1.com/api.php/provide/vod/from/M3U8kuake/
 - `🇨🇳分享央视` — blacklisted (status=0) url: https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/分享央视.py
@@ -324,7 +303,7 @@
 - `💖分享在线` — blacklisted (status=0) url: https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/PY/八戒影视.py
 - `💝分享热播` — blacklisted (status=0) url: https://banyeomni.780420.xyz:17777/api/tvbox/source/2070335664787820544?token=banye666
 - `💖分享巴卜` — blacklisted (status=0) url: https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/歪比.py
-- `💝分享官源` — invalid_content (status=200) url: https://cj.jusj.top/api.php/provide/vod/?ac=list
+- `💝分享官源` — conn_error (status=-1) url: https://cj.jusj.top/api.php/provide/vod/?ac=list
 - `💖分享酷我` — blacklisted (status=0) url: https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/酷我音乐.py
 - `💖分享七猫` — blacklisted (status=0) url: https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/七猫.py
 - `💖分享麻花` — blacklisted (status=0) url: https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/麻花.py
@@ -337,6 +316,7 @@
 - `💝分享星辰` — blacklisted (status=0) url: https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/分享星辰.js
 - `💝分享毒舌` — blacklisted (status=0) url: https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/laozhang/毒舌影视.js
 - `💝分享独播` — blacklisted (status=0) url: https://gh-proxy.org/https:/raw.githubusercontent.com/alantang1977/X/main/laozhang/独播库.js
+- `💖分享异果` — http_503 (status=503) url: https://iqiyizyapi.com/api.php/provide/vod/at/xml/
 - `💝分享月光` — blacklisted (status=0) url: https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/JS/分享月光.js
 - `💝分享官方` — blacklisted (status=0) url: https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/en_gf.js
 - `💝分享短剧` — blacklisted (status=0) url: https://gh-proxy.org/https:/raw.githubusercontent.com/cluntop/cluntop.github.io/main/js/聚合短剧.js
@@ -365,6 +345,7 @@
 - `Easy秒播` — blacklisted (status=0) url: http://45.192.97.170:5211/311758
 - `Kimentanm` — blacklisted (status=0) url: https://ghfast.top/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
 - `综合直播` — blacklisted (status=0) url: https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt
+- `安忆收集1` — conn_error (status=-1) url: https://cdn.jsdmirror.com/gh/1539971456/ys-tvbox@main/iptv/iptv.txt
 - `Guovin` — blacklisted (status=0) url: https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u
 - `港澳台` — blacklisted (status=0) url: http://rihou.cc:567/gggg.nzk
 - `zbds` — blacklisted (status=0) url: https://live.zbds.org/tv/iptv4.m3u
@@ -438,6 +419,7 @@
 - `政治时事` — blacklisted (status=0) url: http://zhangqun66.com/141.php
 - `Ray` — blacklisted (status=0) url: https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt
 - `本地live文件` — blacklisted (status=0) url: http://127.0.0.1:9978/file/XYQTVBox/live.txt
+- `Tianmu` — http_429 (status=429) url: https://ghfile.geekertao.top/https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt
 - `live` — blacklisted (status=0) url: http://app.aiyinch.cn/xzzb/xzvip.txt
 - `MIGU（登录版）` — blacklisted (status=0) url: http://127.0.0.1:9978/proxy?do=migu&type=m3u8
 - `高清` — blacklisted (status=0) url: https://12.mzd.asia/0418/tvbox-sources (1).txt
@@ -473,7 +455,6 @@
 - `💕分享者直播8` — blacklisted (status=0) url: http://127.0.0.1:10079/c/3600/null/http://lisha521.dynv6.net.fh4u.org/live1.txt
 
 ## 解析失效源
-- `6号解析` — conn_error (status=-1) url: https://jiexi.789jiexi.icu:4433/?url=
 - `19号解析` — blacklisted (status=0) url: https://jx.playerjy.com/?url=
 - `黄金vip` — blacklisted (status=0) url: http://xiutan.shiyifacai.com/json/qingfeng.php?url=
 - `黄金v2` — blacklisted (status=0) url: http://jx.meowtv.cn/?url=
@@ -519,7 +500,6 @@
 - `15号解析` — blacklisted (status=0) url: https://www.pouyun.com/?url=
 - `16号解析` — blacklisted (status=0) url: https://jx.dmflv.cc/?url=
 - `17号解析` — blacklisted (status=0) url: https://jx.nnxv.cn/tv.php?url=
-- `18号解析` — conn_error (status=-1) url: https://jx.xmflv.cc/?url=
 - `爱看` — blacklisted (status=0) url: http://119.91.123.253:2345/Api/yun.php?url=
 - `3号接口` — blacklisted (status=0) url: https://jx.789jiexi.net:4433/?url=
 - `2oo` — blacklisted (status=0) url: https://live.ottiptv.cc/iptv.m3u?userid=5803665715&sign=6ea585b301324eabb7b9f18e73839bab903fb60ee5bdb37b3a4276b4d6f3e3b1f4e6f8921a09e3c5b55ba377a8b82967c6fadcbd5c6222b3c2ede9ad273142ee164cdbd1931f03&auth_token=b6823db883fc12f91cf1127973951993
@@ -552,7 +532,6 @@
 - `江湖1080` — blacklisted (status=0) url: http://211.99.99.236:4567/jhjson/ceshi.php?url=
 - `keyu` — blacklisted (status=0) url: http://newjiexi.gotka.top/keyu3.php?url=
 - `荣兴` — blacklisted (status=0) url: http://jx.dygfsdy.com/home/api?type=ys&uid=129415&key=acdmoruwxCDEKPZ679&url=
-- `闪电` — conn_error (status=-1) url: https://bfq.txnp.cn/excessive?url=
 - `Super` — blacklisted (status=0) url: https://super.playr.top/?url=
 - `观山` — blacklisted (status=0) url: https://p10.zijincao.cc/?url=
 - `777` — blacklisted (status=0) url: https://www.huaqi.live/?url=
@@ -652,13 +631,13 @@
 ## 源文件贡献度 (失效最多在前, 供清理决策)
 | 源文件 | 点播 | 存活 | 失效 | 其中拉黑 | 客户端依赖 | 直播 | 解析 |
 |---|---|---|---|---|---|---|---|
-| `cfd73249c0b1f31f.json` | 145 | 62 | 42 | 41 | 41 | 7 | 13 |
+| `cfd73249c0b1f31f.json` | 145 | 61 | 43 | 41 | 41 | 7 | 13 |
 | `88555f59a5052669.json` | 342 | 8 | 34 | 34 | 300 | 1 | 22 |
 | `ayjuh.json` | 138 | 12 | 33 | 32 | 93 | 2 | 6 |
 | `48d6f5585020133d.json` | 131 | 71 | 22 | 22 | 38 | 0 | 1 |
-| `4gg4.json` | 159 | 39 | 16 | 15 | 104 | 32 | 13 |
+| `4gg4.json` | 159 | 33 | 22 | 15 | 104 | 32 | 13 |
+| `253aa275bbe1f5eb.json` | 50 | 32 | 13 | 12 | 5 | 1 | 1 |
 | `8057431bda2f8a19.json` | 210 | 9 | 13 | 13 | 188 | 14 | 4 |
-| `253aa275bbe1f5eb.json` | 50 | 33 | 12 | 12 | 5 | 1 | 1 |
 | `6b4b3302b8e0695d.json` | 60 | 13 | 12 | 12 | 35 | 1 | 9 |
 | `080f31fa552b70fc.json` | 68 | 0 | 10 | 10 | 58 | 0 | 0 |
 | `bzm.json` | 226 | 5 | 9 | 9 | 212 | 3 | 15 |
@@ -666,9 +645,9 @@
 | `doli.json` | 79 | 7 | 6 | 6 | 66 | 12 | 2 |
 | `2ed2460da5a659e8.json` | 79 | 4 | 5 | 5 | 70 | 11 | 5 |
 | `31a7958f9573902b.json` | 73 | 15 | 5 | 5 | 53 | 1 | 1 |
+| `cs.json` | 26 | 0 | 5 | 3 | 21 | 0 | 9 |
 | `e53315328016ad9f.json` | 64 | 1 | 5 | 5 | 58 | 16 | 0 |
 | `4k.json` | 103 | 34 | 3 | 3 | 66 | 1 | 14 |
-| `cs.json` | 26 | 2 | 3 | 3 | 21 | 0 | 9 |
+| `e691052708d5d512.json` | 12 | 2 | 3 | 2 | 7 | 5 | 2 |
 | `da03bfcefdbe8ad0.json` | 23 | 0 | 2 | 2 | 21 | 1 | 8 |
-| `e691052708d5d512.json` | 12 | 3 | 2 | 2 | 7 | 5 | 2 |
 | `x.json` | 36 | 17 | 2 | 2 | 17 | 10 | 10 |
