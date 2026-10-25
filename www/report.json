@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-23 03:05:31",
+  "generated_at": "2026-10-26 03:06:18",
   "summary": {
-    "sites_alive": 441,
-    "sites_dead": 213,
-    "sites_client_dependent": 4086,
-    "lives_alive": 110,
-    "lives_dead": 102,
-    "parses_alive": 72,
-    "parses_dead": 167,
-    "recovered_vs_last_run": 78,
-    "newly_dead_vs_last_run": 14,
+    "sites_alive": 454,
+    "sites_dead": 202,
+    "sites_client_dependent": 4090,
+    "lives_alive": 106,
+    "lives_dead": 106,
+    "parses_alive": 74,
+    "parses_dead": 165,
+    "recovered_vs_last_run": 8,
+    "newly_dead_vs_last_run": 4,
     "sites_unstable": 0,
     "fetch_dead": 54
   },
@@ -19,22 +19,15 @@
         "name": "🎬看剧AI|多线",
         "type": 3,
         "url": "https://cdn.jsdmirror.com/gh/1539971456/ys-tvbox@main/py/看剧ai.py",
-        "reason": "conn_error",
-        "status": -1
-      },
-      {
-        "name": "🎉量子|采集",
-        "type": 1,
-        "url": "https://cj.lziapi.com/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🥇荐片｜影视",
         "type": 3,
         "url": "https://cdn.jsdmirror.com/gh/1539971456/ys-tvbox@main/js/荐片.js",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🥇四影｜影视",
@@ -61,64 +54,64 @@
         "name": "⚽聚合｜球赛",
         "type": 3,
         "url": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/体育聚合.js",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "👶聚合丨儿童",
         "type": 3,
         "url": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/erge_juhe.js",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "👶聚合丨知识",
         "type": 3,
         "url": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/zhishi_juhe.js",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "Q群：811845034",
         "type": 3,
         "url": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/py/py_douban.py",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "追剧｜影视",
         "type": 3,
         "url": "https://gitlab.com/lzc1021lzc/hjfggzs.hjys/-/raw/main/api/drpy2.min.json",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "49Z｜影视",
         "type": 1,
         "url": "https://49zyw.com/api.php/provide/vod/?ac=list",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "快车｜资源",
         "type": 1,
         "url": "https://caiji.kczyapi.com/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🥇荐片｜影视 [0.7s]",
         "type": 3,
         "url": "http://24.233.30.201:5678/js/3222ae9e075e178a986b999b65753308.js",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "http_502",
+        "status": 502
       },
       {
         "name": "🥇毒舌｜影视 [0.6s]",
         "type": 3,
         "url": "http://24.233.30.201:5678/js/578d0e91d5912528d9f582c19b43432f.js",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "http_502",
+        "status": 502
       },
       {
         "name": "🥇永乐｜影视 [0.7s]",
@@ -173,617 +166,596 @@
         "name": "🍀┃如意┃资源 [1.9s]",
         "type": 1,
         "url": "https://cj.rycjapi.com/api.php/provide/vod",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "旺旺资源 [2.7s]",
         "type": 1,
         "url": "https://fdwk.huangjiaju.ccwu.cc/p/wwzy?url=https%3A%2F%2Fapi.wwzy.tv%2Fapi.php%2Fprovide%2Fvod",
-        "reason": "invalid_content",
-        "status": 200
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "👒┃小胡┃资源┃",
         "type": 1,
         "url": "http://c.小胡.icu/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🕹️淘片┃采集",
         "type": 1,
         "url": "https://taopianapi.com/cjapi/mc/vod/json.html",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🥗┃非凡┃资源",
         "type": 1,
         "url": "http://ffzy1.tv/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🦁┃四九┃资源",
         "type": 1,
         "url": "https://49zy1.com/api.php/provide/vod/?ac=list",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🛰️飞速┃采集",
         "type": 1,
         "url": "https://www.feisuzyapi.com/api.php/provide/vod/?ac=list",
-        "reason": "invalid_content",
-        "status": 200
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🐯┃奇虎┃采集",
         "type": 1,
         "url": "https://caiji.qhzyapi.com/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "⛱┃可可┃采集",
         "type": 1,
         "url": "https://kekezy1.com/api.php/provide/vod/?ac=list",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🌪️暴风影音",
         "type": 1,
         "url": "https://app.bfzyapi.com/api.php/provide/vod/",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🥇荐片｜影视",
         "type": 3,
         "url": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/荐片.js",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🥇毒舌｜影视",
         "type": 3,
         "url": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/毒舌影视.js",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🥇永乐｜影视",
         "type": 3,
         "url": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/永乐视频.js",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💥～山茶 | 影视",
         "type": 3,
         "url": "https://chigua.eu.org/py/山茶影视.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💥～瓜子 | 影视",
         "type": 3,
         "url": "https://chigua.eu.org/py/瓜子影视.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🌇～哔哩～直播",
         "type": 3,
         "url": "https://chigua.eu.org/py/哔哩直播.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🌇～网络～直播",
         "type": 3,
         "url": "https://chigua.eu.org/py/网络直播.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🌯芒果星芽芒果短剧",
         "type": 3,
         "url": "https://chigua.eu.org/py/星芽短剧.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "♦～爱听～音乐",
         "type": 3,
         "url": "https://chigua.eu.org/py/爱听音乐.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🐼｜独播库",
         "type": 3,
         "url": "https://files.catbox.moe/gd1tos.js",
-        "reason": "conn_error",
-        "status": -1
-      },
-      {
-        "name": "量子资源(切)",
-        "type": 1,
-        "url": "http://cj.lziapi.com/api.php/provide/vod/",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "七七｜采集",
         "type": 1,
         "url": "http://6.qqqtv.top/api.php/provide/vod/",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "卧龙｜采集",
         "type": 1,
         "url": "https://collect.wolongzy.cc/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "华为吧｜采集",
         "type": 1,
         "url": "https://huawei8.live/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "短剧｜采集",
         "type": 1,
         "url": "https://api.wwzy.tv/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "如意｜采集",
         "type": 1,
         "url": "https://cj.rycjapi.com/api.php/provide/vod/at/json/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "九零｜采集",
         "type": 1,
         "url": "https://oknnews.com/api.php/provide/vod/",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "魔抓｜采集",
         "type": 1,
         "url": "https://mozhuazy.com/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "黑木耳｜采集",
         "type": 1,
         "url": "https://json.heimuer.xyz/api.php/provide/vod/",
-        "reason": "invalid_content",
-        "status": 200
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "四圈｜采集",
         "type": 1,
         "url": "https://pg.fenwe078.cf/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "资源｜采集",
         "type": 1,
         "url": "https://okzyw9.com/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "天翼｜采集",
         "type": 1,
         "url": "https://www.911ysw.top/tianyi.php/provide/vod/",
-        "reason": "invalid_content",
-        "status": 200
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "️无限｜采集",
         "type": 1,
         "url": "https://api.wuxianzy.net/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "黑木耳 | 采集",
         "type": 1,
         "url": "https://json02.heimuer.xyz/api.php/provide/vod/",
-        "reason": "invalid_content",
-        "status": 200
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "ikun | 采集",
         "type": 1,
         "url": "https://ikunzyapi.com/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "低端影视(DRPY)",
         "type": 3,
         "url": "http://home.jundie.top:666/JS/dr_py/libs/drpy.min.js",
-        "reason": "http_401",
-        "status": 401
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "爱看机器人(DRPY)",
         "type": 3,
         "url": "http://home.jundie.top:666/JS/dr_py/libs/drpy.min.js",
-        "reason": "http_401",
-        "status": 401
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "❤天空资源",
         "type": 1,
         "url": "https://m3u8.tiankongapi.com/api.php/provide/vod/from/tkm3u8/?ac=list",
-        "reason": "invalid_content",
-        "status": 200
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "❤优质资源",
         "type": 1,
         "url": "https://api.1080zyku.com/inc/api_mac10.php?ac=list",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "❤卧龙资源",
         "type": 1,
         "url": "https://collect.wolongzyw.com/api.php/provide/vod/",
-        "reason": "invalid_content",
-        "status": 200
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "❤鱼乐资源",
         "type": 1,
         "url": "https://api.yulecj.com/api.php/provide/vod/?ac=list",
-        "reason": "invalid_content",
-        "status": 200
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "❤fox",
         "type": 1,
         "url": "https://api.foxzyapi.com/api.php/provide/vod/?ac=list",
-        "reason": "http_401",
-        "status": 401
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "❤猫咪",
         "type": 1,
         "url": "http://zy.xiaomaomi.vip/api.php/provide/vod/?ac=list",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "❤快看",
         "type": 1,
         "url": "https://kuaikan-api.com/api.php/provide/vod/?ac=list",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "❤ikun资源",
         "type": 1,
         "url": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🥭4K┃影院",
         "type": 3,
         "url": "https://bitbucket.org/guot55/ygbh/raw/main/pro/py/4K影院.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "😢饭团┃PY",
         "type": 3,
         "url": "https://bitbucket.org/guot55/ygbh/raw/main/pro/py/饭团影视.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🥭两个┃BT",
         "type": 3,
         "url": "https://bitbucket.org/guot55/ygbh/raw/main/pro/py/两个BT.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🤒盘友┃搜索",
         "type": 3,
         "url": "https://bitbucket.org/guot55/ygbh/raw/main/pro/py/盘友圈.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "😳米盘┃搜索",
         "type": 3,
         "url": "https://bitbucket.org/guot55/ygbh/raw/main/pro/py/米盘搜.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🎬影院预告",
         "type": 4,
         "url": "https://catbox.n13.club/yugaopian.php",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🏡T4丨教育",
         "type": 4,
         "url": "http://120.53.102.254/dsp16",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享农民",
         "type": 4,
         "url": "https://catbox.n13.club/nongmin.php",
-        "reason": "conn_error",
-        "status": -1
-      },
-      {
-        "name": "💖分享量子",
-        "type": 1,
-        "url": "https://cj.lziapi.com/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "⛵️明日方舟",
         "type": 4,
         "url": "https://catbox.n13.club/mingri.php",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享libhd",
         "type": 1,
         "url": "https://www.libhd.com/api.php/provide/vod/from/AL2/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享安博",
         "type": 4,
         "url": "https://tang.serv00.net/power/ub1818",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🌪仗风前行",
         "type": 1,
         "url": "https://ys.zf520.cn/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享约爱",
         "type": 1,
         "url": "https://caiji.yueai55.cc:2277/yuelove.php/provide/vod",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享云盘",
         "type": 1,
         "url": "http://d.xzam.cn/api.php/provide/vod/",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🧇至圣文宣",
         "type": 1,
         "url": "http://82.156.40.118:1234/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🐻‍❄️熊掌采集",
         "type": 1,
         "url": "http://xzcjz.com/api.php/provide/vod/at/json",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🌩️快云蓝光",
         "type": 1,
         "url": "https://kuaiyun-api.com/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🎒七之社区",
         "type": 1,
         "url": "https://cdk.centos.chat/api.php/provide/vod",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🎏星影相随",
         "type": 1,
         "url": "https://www.xy1080.net/api.php/provide/vod",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💘七七韩剧",
         "type": 1,
         "url": "https://www.77hanju.com/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🔍魔都动漫",
         "type": 1,
         "url": "https://www.moduzy.com/api.php/provide/vod/?ac=list",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💗搜狐php",
         "type": 1,
         "url": "http://tvbox-1-g5221611.deta.app/vod/sohu",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🌐天天影视",
         "type": 1,
         "url": "https://api.1080zyku.com/inc/apijson.php",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🌞享看就看",
         "type": 1,
         "url": "https://xkanzy10.com/api.php/provide/vod",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🥟包子采集",
         "type": 1,
         "url": "http://cj.baozi66.top:66/api.php/provide/vod/",
-        "reason": "invalid_content",
-        "status": 200
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🫕祥子采集",
         "type": 1,
         "url": "http://141.147.146.105/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🎣鱼乐采集",
         "type": 1,
         "url": "https://api.ylzy.me/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "⏰乐视影视",
         "type": 1,
         "url": "https://leshizyapi.com/api.php/provide/vod/at/json/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🏂极速资源",
         "type": 1,
         "url": "https://jszy.tv/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "👣大漠孤烟",
         "type": 1,
         "url": "https://damozy.com/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🕎映迷映画",
         "type": 1,
         "url": "https://www.inmi.app/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🎼MV|视频",
         "type": 1,
         "url": "https://tvbox-mv--leosam2048.repl.co/mv/vod",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💃抖音姐姐",
         "type": 4,
         "url": "http://120.53.102.254/xjj",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💽MV大全",
         "type": 4,
         "url": "http://120.53.102.254/dsp/",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "️🐧腾讯影视",
         "type": 1,
         "url": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/qq/?at/xml/",
-        "reason": "invalid_content",
-        "status": 200
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "️🥭芒果影视",
         "type": 1,
         "url": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/mgtv/?at/xml/",
-        "reason": "invalid_content",
-        "status": 200
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "️🥝奇艺影视",
         "type": 1,
         "url": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/qiyi/?at/xml/",
-        "reason": "invalid_content",
-        "status": 200
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "️👔优酷影视",
         "type": 1,
         "url": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/youku/?at/xml/",
-        "reason": "invalid_content",
-        "status": 200
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "️🦊搜狐影视",
         "type": 1,
         "url": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/sohu/?at/xml/",
-        "reason": "invalid_content",
-        "status": 200
-      },
-      {
-        "name": "雷蒙影视 | 🚀量子资源",
-        "type": 1,
-        "url": "http://cj.lziapi.com/api.php/provide/vod/",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🍊柚子资源",
         "type": 0,
         "url": "https://api.yzzy-api.com/inc/api.php",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "豆瓣",
         "type": 3,
         "url": "https://meow.668yun.top/api/s/MMpQwoycF4anEkz5K1ZfMO0mqIDjObj5/豆瓣.js",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "西瓜",
@@ -810,365 +782,323 @@
         "name": "影",
         "type": 3,
         "url": "https://meow.668yun.top/api/s/NR4CtxMmpYPj4nf1KkkhpDYaH0hX5nC3/影探4K.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "哔哩4K",
         "type": 3,
         "url": "https://meow.668yun.top/api/s/unDwdM3nZBachMqnrGmG3bQDcvsubkpb/哔哩影视.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "我的哔哩",
         "type": 3,
         "url": "https://meow.668yun.top/api/s/d26yObEbm8rr5LbHYgdJg2OsfmN3Skue/我的哔哩影视.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "聚合剧➋",
         "type": 3,
         "url": "http://nn.4688888.xyz/py/短剧聚合.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "👨‍👨‍👧亲子教育",
         "type": 3,
         "url": "http://hucongrong.web3v.work/风水/fxz/lib/apiv387drpy2.min.js",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "羊佬壳游戏",
         "type": 3,
         "url": "https://pan.uvqzu.cn/f/BpVsd/%E4%BA%91%E6%B8%B8.js",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "官方采集M",
         "type": 4,
         "url": "https://py.doube.eu.org/v2/spider?site=006849a2c19a6be413be5017be468c63",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "动漫巴士M",
         "type": 4,
         "url": "https://py.doube.eu.org/v2/spider?site=6b5899d243816bacb8712de7ab6ceb89",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "嗷呜剧(坏了)",
         "type": 4,
         "url": "https://newtv.ggff.net/jubaba?token=fhJadO1R",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "新韩剧网M",
         "type": 4,
         "url": "https://py.doube.eu.org/v2/spider?site=2a7cc0edf96108c9d57420ff57c654c6",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🍎 官方资源(PHP)",
         "type": 4,
         "url": "https://php.doube.eu.org/spider/php/官方资源.php",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🍎 电影天堂(PHP)",
         "type": 4,
         "url": "https://php.doube.eu.org/spider/php/电影天堂.php",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🍎 非凡资源(PHP)",
         "type": 4,
         "url": "https://php.doube.eu.org/spider/php/非凡资源.php",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "老张影视",
         "type": 4,
         "url": "http://zhangqun1818.serv00.net/zh/2242.php",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "♨️人人｜影视",
         "type": 3,
         "url": "https://17264.kstore.space/人人影视.py",
-        "reason": "conn_error",
-        "status": -1
-      },
-      {
-        "name": "🌼量子┃影视🌼",
-        "type": 1,
-        "url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🌼卧龙┃影视🌼",
         "type": 1,
         "url": "https://wolongzyw.com/api.php/provide/vod",
-        "reason": "invalid_content",
-        "status": 200
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🌼如意┃影视🌼",
         "type": 1,
         "url": "http://cj.rycjapi.com/api.php/provide/vod",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "七味",
         "type": 3,
         "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/七味.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "我的|心悦搜索",
         "type": 1,
         "url": "https://影视仓接口.top/tvbox_adapter_v6.php?ac=list",
-        "reason": "conn_error",
-        "status": -1
-      },
-      {
-        "name": "🍊量子┃资源",
-        "type": 0,
-        "url": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🐷┃猪猪┃影视",
         "type": 3,
         "url": "https://13826.kstore.vip/AppV2.py",
-        "reason": "http_401",
-        "status": 401
-      },
-      {
-        "name": "🦚360┃采集",
-        "type": 1,
-        "url": "https://360zy.com/api.php/provide/vod?",
-        "reason": "conn_error",
-        "status": -1
-      },
-      {
-        "name": "刺桐高清┃自营",
-        "type": 1,
-        "url": "http://pg.cttv.vip/api.php/provide/vod",
-        "reason": "invalid_content",
-        "status": 200
-      },
-      {
-        "name": "量子资源┃刺桐",
-        "type": 1,
-        "url": "https://cj.lziapi.com/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "如意资源┃刺桐",
         "type": 1,
         "url": "https://cj.rycjapi.com/api.php/provide/vod/?ac=list",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "快车资源┃刺桐",
         "type": 1,
         "url": "https://caiji.kczyapi.com/api.php/provide/vod/from/kcm3u8/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "卧龙资源┃刺桐",
         "type": 1,
         "url": "https://collect.wolongzyw.com/api.php/provide/vod/",
-        "reason": "invalid_content",
-        "status": 200
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "旺旺短剧┃刺桐",
         "type": 1,
         "url": "https://api.wwzy.tv/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "短剧专辑┃刺桐",
         "type": 4,
         "url": "https://catbox.n13.club/t9/xingzhige.php",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "飘花影院┃刺桐",
         "type": 1,
         "url": "http://www.ahjiuman.com/api.php/provide/vod/at/json",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "天翼资源┃刺桐",
         "type": 1,
         "url": "https://www.911ysw.top/tianyi.php/provide/vod/",
-        "reason": "invalid_content",
-        "status": 200
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "奇虎资源┃刺桐",
         "type": 1,
         "url": "https://caiji.qhzyapi.com/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
-      },
-      {
-        "name": "爱奇艺资源┃刺桐",
-        "type": 1,
-        "url": "https://iqiyizyapi.com/api.php/provide/vod/",
-        "reason": "http_503",
-        "status": 503
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "789资源┃刺桐",
         "type": 1,
         "url": "http://www.caiji.cyou/api.php/provide/vod/",
-        "reason": "invalid_content",
-        "status": 200
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "金蝉资源┃刺桐",
         "type": 1,
         "url": "https://zy.jinchancaiji.com/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "腾腾｜视频",
         "type": 3,
         "url": "https://file.zhangyichi.dev/uploads/695cb6347d0b1_1767683636.js",
-        "reason": "http_521",
-        "status": 521
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "酷酷｜视频",
         "type": 3,
         "url": "https://file.zhangyichi.dev/uploads/695cb6347d0b1_1767683636.js",
-        "reason": "http_521",
-        "status": 521
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "果果｜视频",
         "type": 3,
         "url": "https://file.zhangyichi.dev/uploads/695cb6347d0b1_1767683636.js",
-        "reason": "http_521",
-        "status": 521
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "奇奇｜视频",
         "type": 3,
         "url": "https://file.zhangyichi.dev/uploads/695cb6347d0b1_1767683636.js",
-        "reason": "http_521",
-        "status": 521
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "采集｜合集",
         "type": 3,
         "url": "https://file.zhangyichi.dev/uploads/695cb6347d0b1_1767683636.js",
-        "reason": "http_521",
-        "status": 521
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "A1｜动漫",
         "type": 3,
         "url": "https://file.zhangyichi.dev/uploads/695cb6347d0b1_1767683636.js",
-        "reason": "http_521",
-        "status": 521
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "NT｜动漫",
         "type": 3,
         "url": "https://file.zhangyichi.dev/uploads/695cb6347d0b1_1767683636.js",
-        "reason": "http_521",
-        "status": 521
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "花子｜动漫",
         "type": 3,
         "url": "https://file.zhangyichi.dev/uploads/695cb6347d0b1_1767683636.js",
-        "reason": "http_521",
-        "status": 521
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "路漫漫｜动漫",
         "type": 3,
         "url": "https://file.zhangyichi.dev/uploads/695cb6347d0b1_1767683636.js",
-        "reason": "http_521",
-        "status": 521
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "去看吧｜动漫",
         "type": 3,
         "url": "https://file.zhangyichi.dev/uploads/695cb6347d0b1_1767683636.js",
-        "reason": "http_521",
-        "status": 521
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "ikun",
         "type": 1,
         "url": "http://127.0.0.1:10079/p/0/proxy/https://ikunzyapi.com/api.php/provide/vod/?",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "暴風",
         "type": 1,
         "url": "http://127.0.0.1:10079/p/0/proxy/https://bfzyapi.com/api.php/provide/vod?",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "索尼 ",
         "type": 1,
         "url": "http://127.0.0.1:10079/p/0/proxy/https://suoniapi.com/api.php/provide/vod?",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "量子",
         "type": 1,
         "url": "http://127.0.0.1:10079/p/0/proxy/http://cj.lziapi.com/api.php/provide/vod/?",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "非凡",
         "type": 1,
         "url": "http://127.0.0.1:10079/p/0/proxy/http://cj.ffzyapi.com/api.php/provide/vod/?",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "豆瓣 | 采集",
         "type": 1,
         "url": "https://caiji.dbzy.tv/api.php/provide/vod/from/dbm3u8/at/josn/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "豆瓣|推荐",
@@ -1181,71 +1111,64 @@
         "name": "HG影视（备用)",
         "type": 0,
         "url": "http://cs.hgyx.vip/api/provide/vod/at/xml/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🐝夸克资源",
         "type": 1,
         "url": "http://kuakezy1.com/api.php/provide/vod/from/M3U8kuake/",
-        "reason": "conn_error",
-        "status": -1
-      },
-      {
-        "name": "🐝量子资源",
-        "type": 1,
-        "url": "http://cj.lziapi.com/api.php/provide/vod/?ac=list",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🇨🇳分享央视",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/分享央视.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🇨🇳分享综艺",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/央视综艺.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享平台",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/PY/直播平台.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享糖豆",
         "type": 1,
         "url": "https://kk.666888.club/vod/cibn_api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享在线",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/PY/八戒影视.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享热播",
         "type": 4,
         "url": "https://banyeomni.780420.xyz:17777/api/tvbox/source/2070335664787820544?token=banye666",
-        "reason": "http_500",
-        "status": 500
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享巴卜",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/歪比.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享官源",
@@ -1258,253 +1181,253 @@
         "name": "💖分享酷我",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/酷我音乐.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享七猫",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/七猫.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享麻花",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/麻花.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享瓜子",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/PY/瓜子.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享猫咪",
         "type": 1,
         "url": "http://zy.xiaomaomi.cc/api.php/provide/vod/",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享金牌",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/金牌.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享新河",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/PY/分享新河.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享猎手",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/LSYS.py",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享夸克",
         "type": 3,
         "url": "http://rihou.cc:88/js/夸克影院.js",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享星辰",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/分享星辰.js",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享毒舌",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/laozhang/毒舌影视.js",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享独播",
         "type": 3,
         "url": "https://gh-proxy.org/https:/raw.githubusercontent.com/alantang1977/X/main/laozhang/独播库.js",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享月光",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/JS/分享月光.js",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享官方",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/en_gf.js",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享短剧",
         "type": 3,
         "url": "https://gh-proxy.org/https:/raw.githubusercontent.com/cluntop/cluntop.github.io/main/js/聚合短剧.js",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享永乐",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/永乐视频.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享EMBY",
         "type": 3,
         "url": "https://gh-proxy.org/https:/raw.githubusercontent.com/alantang1977/X/main/js/Emby.js",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享动漫",
         "type": 3,
         "url": "https://gh-proxy.org/https:/raw.githubusercontent.com/alantang1977/X/main/js/Emby小雅.js",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享金蝉",
         "type": 1,
         "url": "http://zy.jinchancaiji.com/api.php/provide/vod",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享剧透",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/PY/剧透社.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享云集",
         "type": 3,
         "url": "https://d.kstore.dev/download/4127/py/电影云集.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享采集",
         "type": 3,
         "url": "https://d.kstore.dev/download/4127/js/官采.js",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享土豆",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/PY/土豆浏览器.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享荐片",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/laozhang/荐片.js",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享哔哩",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/cluntop/cluntop.github.io/refs/heads/main/py/哔哩视频.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享努努",
         "type": 3,
         "url": "https://d.kstore.dev/download/4127/PY/分享努努.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享外剧",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/国外剧APP.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享豆瓣",
         "type": 1,
         "url": "https://caiji.dbzy.tv/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享MiFunP",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/MiFunP动漫.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享高清",
         "type": 1,
         "url": "https://api.yzzy-api.com/inc/apijson.php",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享如意",
         "type": 1,
         "url": "https://cj.rycjapi.com/api.php/provide/vod/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享爱听",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/PY/爱听音乐.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享枫叶",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/PY/枫叶音乐.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享网易",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/PY/网易云音乐.py",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "📚儿童启蒙",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/laozhang/兔小贝.js",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "小咕｜星源",
         "type": 1,
         "url": "https://xy.183933.xyz/php/咪咕.php",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       }
     ],
     "lives": [
@@ -1512,477 +1435,505 @@
         "name": "Easy秒播",
         "type": 0,
         "url": "http://45.192.97.170:5211/311758",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "港澳台",
         "type": 0,
         "url": "http://rihou.cc:567/gggg.nzk",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "zbds",
         "type": 0,
         "url": "https://live.zbds.org/tv/iptv4.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "fanmingming",
         "type": 0,
         "url": "https://live.fanmingming.cn/tv/m3u/ipv4.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "Kimentanm",
         "type": 0,
         "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-        "reason": "http_403",
-        "status": 403
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "yuan",
         "type": 0,
         "url": "http://wangziduoqing.com/yuan/zb.txt",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "全球",
         "type": 0,
         "url": "http://xingioe.top/down.php/82d0754d79de3be03e9b63e4d2d96818.jpg",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🔱黄金直播🏅",
         "type": 0,
         "url": "http://hjfggzs.jrsha.com/tvbox/",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "LunaTV聚合直播",
         "type": 0,
         "url": "https://tv.huangjiaju466.dpdns.org:3000/api/live/merged",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "肥猫",
         "type": 0,
         "url": "http://我不是.肥猫.live/TV/tvzb.txt",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "旗袍",
         "type": "0",
         "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkgp/Jsnzkgp/refs/heads/Jsnzkgp/Jsnzkgp1",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "Kimentanm",
         "type": 0,
         "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "日后",
         "type": 0,
         "url": "http://rihou.cc:555/gggg.nzk",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "宫柔",
         "type": 0,
         "url": "https://gongdian.top/tv/iptv",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "电视直播",
         "type": "0",
         "url": "http://gh-proxy.org/raw.githubusercontent.com/Surprise0901/TVBox_live/main/live.txt",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "酒店源",
         "type": 0,
         "url": "https://gongdian.top/tv/guovin",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "2oo",
         "type": 0,
         "url": "https://live.ottiptv.cc/iptv.m3u?userid=5803665715&sign=6ea585b301324eabb7b9f18e73839bab903fb60ee5bdb37b3a4276b4d6f3e3b1f4e6f8921a09e3c5b55ba377a8b82967c6fadcbd5c6222b3c2ede9ad273142ee164cdbd1931f03&auth_token=b6823db883fc12f91cf1127973951993",
-        "reason": "http_403",
-        "status": 403
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "develop202",
         "type": 0,
         "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
-        "reason": "http_403",
-        "status": 403
+        "reason": "blacklisted",
+        "status": 0
+      },
+      {
+        "name": "自动更新",
+        "type": 0,
+        "url": "https://z.szyyds.cn/iptv",
+        "reason": "conn_error",
+        "status": -1
       },
       {
         "name": "肥羊虎牙一起看",
         "type": 0,
         "url": "http://127.0.0.1:9978/proxy?do=live&url=https://x.szyyds.cn/huyayqk.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "肥羊B站直播",
         "type": 0,
         "url": "http://127.0.0.1:9978/proxy?do=live&url=https://x.szyyds.cn/bililive.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "肥羊斗鱼一起看",
         "type": 0,
         "url": "http://127.0.0.1:9978/proxy?do=live&url=https://x.szyyds.cn/douyuyqk.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "肥羊YY轮播",
         "type": 0,
         "url": "http://127.0.0.1:9978/proxy?do=live&url=https://x.szyyds.cn/yylunbo.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "范明明",
         "type": 0,
         "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "肥羊直播",
         "type": 3,
         "url": "csp_Feiyang",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "AI直播",
         "type": 0,
         "url": "https://wget.la/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "虎牙一起看",
         "type": 3,
         "url": "csp_Feiyang",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "斗鱼一起看",
         "type": 3,
         "url": "csp_Feiyang",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "YY轮播",
         "type": 3,
         "url": "csp_Feiyang",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "电视Live",
         "type": 0,
         "url": "https://tv.iill.top/m3u/Gather",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "网络Live",
         "type": 0,
         "url": "https://tv.iill.top/m3u/Live",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "AI拾光",
         "type": 0,
         "url": "https://ghproxy.net/raw.githubusercontent.com/xmbjm/IPTV/master/output/user_result.txt",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "AIGuovin",
         "type": 0,
         "url": "https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u",
-        "reason": "http_451",
-        "status": 451
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "看球",
         "type": 0,
         "url": "http://php.cqshushu.ggff.net/kqt.php?公众号【医工学习日志】",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "世界杯拾光",
         "type": 0,
         "url": "https://www.freetv.top/mgevent.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "smt直播",
         "type": 0,
         "url": "http://iptv.herissmon.dpdns.org/jiekou/live.txt",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "拾光AI",
         "type": 0,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/IPTV/master/output/user_result.m3u",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "咪咕直播",
         "type": 0,
         "url": "https://yun.urldwz.com/f/Q6y3ca/migu.m3u",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "虎牙一起看",
         "type": 3,
         "url": "csp_Feiyang",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "斗鱼一起看",
         "type": 3,
         "url": "csp_Feiyang",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "YY轮播",
         "type": 3,
         "url": "csp_Feiyang",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "B站直播",
         "type": 3,
         "url": "csp_Feiyang",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "wqwqwq",
         "type": 0,
         "url": "https://la1.wqwqwq.sbs/tv.m3u",
-        "reason": "http_530",
-        "status": 530
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "YanG",
         "type": "0",
         "url": "https://https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "Guovin",
         "type": 0,
         "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "mlzlzj",
         "type": 0,
         "url": "https://raw.githubusercontent.com/mlzlzj/TV/main/output/result.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "epg.pw All",
         "type": 0,
         "url": "https://m3u.002397.xyz/all.m3u",
-        "reason": "http_530",
-        "status": 530
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "All",
         "type": 0,
         "url": "https://m3u.002397.xyz/o_all.m3u",
-        "reason": "http_530",
-        "status": 530
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "直播",
         "type": 0,
         "url": "http://home.jundie.top:81/Cat/tv/live.txt",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "心魔",
         "type": 0,
         "url": "https://raw.gitmirror.com/yw88075/tvbox/main/live.txt",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
+      },
+      {
+        "name": "雷蒙影视电视直播",
+        "type": 0,
+        "url": "https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/CTVLive/main/live.txt",
+        "reason": "http_429",
+        "status": 429
+      },
+      {
+        "name": "雷蒙影视轻量直播",
+        "type": 0,
+        "url": "https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/CTVLive/main/litelive.m3u",
+        "reason": "http_429",
+        "status": 429
+      },
+      {
+        "name": "雷蒙影视宣传片",
+        "type": 0,
+        "url": "https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/LIVE/ctvpv.txt",
+        "reason": "http_429",
+        "status": 429
       },
       {
         "name": "国内直播[今日回看]",
         "type": 0,
         "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/tv.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "MyTV",
         "type": 0,
         "url": "https://tv.iill.top/m3u/MyTV",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "港台直播",
         "type": 0,
         "url": "http://aktv.top/live.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "B站直播",
         "type": 0,
         "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/bililive.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "虎牙一起看",
         "type": 0,
         "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/huyayqk.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "斗鱼一起看",
         "type": 0,
         "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/douyuyqk.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "YY轮播",
         "type": 0,
         "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/yylunbo.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "臻享",
         "type": "1",
         "url": "https://jk.123zy.cool/jx/jx.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "线路2",
         "type": 0,
         "url": "https://jx.quankan.app/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "巧技",
         "type": 1,
         "url": "https://zy.qiaoji8.com/neibu.php?url=",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "巧技二",
         "type": 1,
         "url": "https://zy.qiaoji8.com/gouzi.php?url=",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "王",
         "type": 1,
         "url": "http://122.228.84.103:7777/api/?key=4Dk5tdayvY6NZufEMG&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "二",
         "type": 1,
         "url": "http://110.42.7.182:880/api/?key=7e84f07dc78fbb3406d64a1ab7d966b3&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "小",
         "type": 1,
         "url": "http://43.136.176.188:91/api/?key=4ef232e96172b0bda78d393c695fe7c4&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "帅",
         "type": 1,
         "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "IPv4",
         "type": 0,
         "url": "http://101.200.122.188/66",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "政治时事",
         "type": null,
         "url": "http://zhangqun66.com/141.php",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "Ray",
         "type": 0,
         "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "本地live文件",
         "type": "0",
         "url": "http://127.0.0.1:9978/file/XYQTVBox/live.txt",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "BMCH",
@@ -2002,85 +1953,85 @@
         "name": "live",
         "type": 0,
         "url": "http://app.aiyinch.cn/xzzb/xzvip.txt",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "MIGU（登录版）",
         "type": 0,
         "url": "http://127.0.0.1:9978/proxy?do=migu&type=m3u8",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "高清",
         "type": 0,
         "url": "https://12.mzd.asia/0418/tvbox-sources (1).txt",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "MIGU（AI版本）",
         "type": 0,
         "url": "http://127.0.0.1:9978/proxy?do=live&url=https://ds65.tv1288.xyz",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "江苏移动",
         "type": 0,
         "url": "http://127.0.0.1:9978/proxy?do=live&url=https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/529EAA1_773_jsyd_20251205182514164newMediaFile.bmp",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "肥羊虎牙一起看",
         "type": 0,
         "url": "http://127.0.0.1:9978/proxy?do=live&url=https://sub.ottiptv.cc/huyayqk.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "肥羊B站直播",
         "type": 0,
         "url": "http://127.0.0.1:9978/proxy?do=live&url=https://sub.ottiptv.cc/bililive.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "肥羊斗鱼一起看",
         "type": 0,
         "url": "http://127.0.0.1:9978/proxy?do=live&url=https://sub.ottiptv.cc/douyuyqk.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "肥羊YY轮播",
         "type": 0,
         "url": "http://127.0.0.1:9978/proxy?do=live&url=https://sub.ottiptv.cc/yylunbo.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "develop202",
         "type": 0,
         "url": "https://gh.llkk.cc/http://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "极直播电视(php)",
         "type": null,
         "url": "http://php.cqshushu.ggff.net/jzb.php?公众号【医工学习日志】",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "16万•MV",
         "type": 0,
         "url": "https://gh.tryxd.cn/raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "牛播一",
@@ -2093,962 +2044,955 @@
         "name": "最强国内直播(合并版)",
         "type": 0,
         "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/all.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "FeiYang牧场",
         "type": 0,
         "url": "http://sub.ottiptv.cc/iptv.m3u",
-        "reason": "http_502",
-        "status": 502
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "BJYD",
         "type": 0,
         "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/bjyd.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "PandaGo投屏直播接收记录",
         "type": 0,
         "url": "http://127.0.0.1:10079/dlnam3u/tv.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "FMM.m3u",
         "type": 0,
         "url": "http://127.0.0.1:10079/c/3600/proxy/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "FMM.m3u.音质增强",
         "type": 0,
         "url": "http://127.0.0.1:10079/mp4/3600/proxy/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "肥羊TX赛事直播",
         "type": 0,
         "url": "http://127.0.0.1:10079/c/60/null/http://127.0.0.1:35456/txevent.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "肥羊QY赛事直播",
         "type": 0,
         "url": "http://127.0.0.1:10079/c/60/null/http://127.0.0.1:35456/iqyevent.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "肥羊B站直播.音质增强",
         "type": 0,
         "url": "http://127.0.0.1:10079/mp4/3600/null/http://127.0.0.1:35456/bililive.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "肥羊虎牙一起看.音质增强",
         "type": 0,
         "url": "http://127.0.0.1:10079/mp4/3600/null/http://127.0.0.1:35456/huyayqk.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "肥羊斗鱼一起看.音质增强",
         "type": 0,
         "url": "http://127.0.0.1:10079/mp4/3600/null/http://127.0.0.1:35456/douyuyqk.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "FMM.txt",
         "type": 0,
         "url": "http://127.0.0.1:10079/c/3600/proxy/https://fanmingming.com/txt?url=https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "zouming.ipv6",
         "type": 0,
         "url": "http://127.0.0.1:10079/c/3600/proxy/http://ww.zouming.com/ipv6.txt",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "HG独家解析2",
         "type": 1,
         "url": "https://json2.hgyx.vip/home/api?type=ys&uid=2941923&key=efghjlsxABEFHIKMOZ&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "解析02",
         "type": 0,
         "url": "https://jx.dmflv.cc/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "解析05",
         "type": 0,
         "url": "https://www.8090.la/8090/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "解析06",
         "type": 0,
         "url": "https://dmjx.m3u8.tv/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享者直播+",
         "type": 0,
         "url": "https://xoxo.cn.mt/Lonely.m3u",
-        "reason": "http_502",
-        "status": 502
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💕分享者直播8",
         "type": 0,
         "url": "http://127.0.0.1:10079/c/3600/null/http://lisha521.dynv6.net.fh4u.org/live1.txt",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       }
     ],
     "parses": [
       {
-        "name": "7号解析",
-        "type": 0,
-        "url": "https://jx.789jiexi.com/?url=",
-        "reason": "conn_error",
-        "status": -1
-      },
-      {
         "name": "19号解析",
         "type": 0,
         "url": "https://jx.playerjy.com/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "黄金vip",
         "type": 1,
         "url": "http://xiutan.shiyifacai.com/json/qingfeng.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "黄金v2",
         "type": 1,
         "url": "http://jx.meowtv.cn/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "黄金专线3",
         "type": 0,
         "url": "https://jx.quankan.app/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "黄金专线5",
         "type": 0,
         "url": "https://jx.jsonplayer.com/player/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "黄金专线8",
         "type": 0,
         "url": "https://jx.zhanlangbu.com/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "黄金专线9",
         "type": 0,
         "url": "https://jx.777jiexi.com/player/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "巧技",
         "type": 1,
         "url": "https://zy.qiaoji8.com/neibu.php?url=",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "巧技二",
         "type": 1,
         "url": "https://zy.qiaoji8.com/gouzi.php?url=",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "巧技三",
         "type": 1,
         "url": "https://zy.qiaoji8.com/xiafan.php?url=",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "A6",
         "type": 0,
         "url": "https://pl.a6club.com/player/analysis.php?v=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "推荐",
         "type": 1,
         "url": "https://zy.qiaoji8.com/gouzi.php?url=94b07e0b2c0e8244&url=",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "臻享",
         "type": 1,
         "url": "https://150.138.78.37:4399/api?key=94b07e0b2c0e8244&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "优选",
         "type": 1,
         "url": "http://1.94.221.189:88/algorithm.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "-聚合-",
         "type": 3,
         "url": "https://cnb.cool/ayrjk/tvbox/-/git/raw/main/Demo",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "Web聚合",
         "type": 3,
         "url": "https://cnb.cool/ayrjk/tvbox/-/git/raw/main/Web",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "-zui-",
         "type": 0,
         "url": "https://jx.zui.cm/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "Json并发",
         "type": 2,
         "url": "https://cnb.cool/ayrjk/tvbox/-/git/raw/main/Parallel",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "Json轮询",
         "type": 2,
         "url": "https://cnb.cool/ayrjk/tvbox/-/git/raw/main/Sequence",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "LunaTV内置解析",
         "type": 1,
         "url": "https://tv.huangjiaju466.dpdns.org:3000/api/parse?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "公众号：肥猫宝贝",
         "type": 1,
         "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=demprsyzBMQRVY0234&url=",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "肥猫最可爱",
         "type": 1,
         "url": "http://xn--ihqu10cn4c.xn--z7x900a.live/jx.php?id=2&url=",
-        "reason": "http_502",
-        "status": 502
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "神秘的哥哥们",
         "type": 1,
         "url": "http://api.888484.xyz/神秘哥哥/super.php?v=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "米饭",
         "type": 1,
         "url": "https://api.json.icu/api/?key=b1f3b1a9e1c0a42ae969db10bd315a95&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "全民",
         "type": 0,
         "url": "http://api.wpsseo.cn/?v=",
-        "reason": "http_526",
-        "status": 526
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "8090",
         "type": 0,
         "url": "https://www.8090.la/8090/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "巧技",
         "type": 1,
         "url": "http://pandown.pro/app/kkdy.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "腾云",
         "type": 1,
         "url": "https://api.tyun77.cn/api.php/provide/parseDicturl?url=",
-        "reason": "http_403",
-        "status": 403
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "世界",
         "type": 1,
         "url": "http://175.178.183.192:84/api/?key=f3913eb3f85a8298b3e6e427b8712b2e&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "飞云",
         "type": 1,
         "url": "http://122.228.84.103:7777/api/?key=o9fQb0Jvz0qZzY19Jq&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "赞赞",
         "type": 1,
         "url": "https://vip.yybjs.top/home/api?type=ys&uid=2691400&key=bcmqsvwyzACFIPY368&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "左岸",
         "type": 1,
         "url": "http://122.228.84.103:5829/jx/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "qiyi[官源]",
         "type": 1,
         "url": "http://39.104.230.177:1122/lxjx/myyk.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "Google",
         "type": null,
         "url": "https://dns.google/dns-query",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "Cloudflare",
         "type": null,
         "url": "https://cloudflare-dns.com/dns-query",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "AdGuard",
         "type": null,
         "url": "https://dns.adguard.com/dns-query",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "DNSWatch",
         "type": null,
         "url": "https://resolver2.dns.watch/dns-query",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "Quad9",
         "type": null,
         "url": "https://dns.quad9.net/dns-quer",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "失败手动换",
         "type": 1,
         "url": "https://by1.nxog.eu.org/jx.php?ou=391&mz=0&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "-关注-",
         "type": 1,
         "url": "https://by1.nxog.eu.org/jx.php?ou=391&mz=1&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "-公众号-",
         "type": 1,
         "url": "https://by1.nxog.eu.org/jx.php?ou=391&mz=2&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "-安忆手游推荐-",
         "type": 1,
         "url": "https://by1.nxog.eu.org/jx.php?ou=391&mz=3&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "15号解析",
         "type": 0,
         "url": "https://www.pouyun.com/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "16号解析",
         "type": 0,
         "url": "https://jx.dmflv.cc/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "17号解析",
         "type": 0,
         "url": "https://jx.nnxv.cn/tv.php?url=",
-        "reason": "http_403",
-        "status": 403
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "爱看",
         "type": 4,
         "url": "http://119.91.123.253:2345/Api/yun.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "2oo",
         "type": 0,
         "url": "https://live.ottiptv.cc/iptv.m3u?userid=5803665715&sign=6ea585b301324eabb7b9f18e73839bab903fb60ee5bdb37b3a4276b4d6f3e3b1f4e6f8921a09e3c5b55ba377a8b82967c6fadcbd5c6222b3c2ede9ad273142ee164cdbd1931f03&auth_token=b6823db883fc12f91cf1127973951993",
-        "reason": "empty_body",
-        "status": 200
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "失败手动换",
         "type": "1",
         "url": "https://by1.nxog.eu.org/jx.php?ou=396&mz=0&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "-关注-",
         "type": 1,
         "url": "https://by1.nxog.eu.org/jx.php?ou=396&mz=1&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "-公众号-",
         "type": 1,
         "url": "https://by1.nxog.eu.org/jx.php?ou=396&mz=2&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "-装歌APP-",
         "type": 1,
         "url": "https://by1.nxog.eu.org/jx.php?ou=396&mz=3&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "王",
         "type": 1,
         "url": "http://122.228.84.103:7777/api/?key=4Dk5tdayvY6NZufEMG&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "二",
         "type": 1,
         "url": "http://110.42.7.182:880/api/?key=7e84f07dc78fbb3406d64a1ab7d966b3&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "小",
         "type": 1,
         "url": "http://43.136.176.188:91/api/?key=4ef232e96172b0bda78d393c695fe7c4&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "帅",
         "type": 1,
         "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "羽路均沾",
         "type": 0,
         "url": "https://ylu.cc/index.php?url=",
-        "reason": "http_403",
-        "status": 403
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "okjx",
         "type": 0,
         "url": "https://okjx.cc/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "999",
         "type": 0,
         "url": "https://huayong.net/999/?v=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "jx5",
         "type": 0,
         "url": "https://huayong.net/jx5/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "解析3",
         "type": 0,
         "url": "https://player.mrgaocloud.com/player/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "vip4",
         "type": 0,
         "url": "https://huayong.net/vip4/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "8090",
         "type": 0,
         "url": "https://www.8090.la/lander?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "无上",
         "type": "1",
         "url": "https://mfjx.iwsyy.xyz/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "至臻",
         "type": 1,
         "url": "http://yunhai.qijiyun.vip/home/api?type=ys&uid=177259&key=dijnouxKNOQSTUWXY5&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "极速",
         "type": 0,
         "url": "https://jx.2s0.cn/player/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "NMTV",
         "type": 0,
         "url": "https://nm.xxxc137.top/static/player/artplayer.html?url=",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "大厂",
         "type": 0,
         "url": "https://t2.qlplayer.cyou/player/analysis.php?v=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "3-麒麟",
         "type": 0,
         "url": "https://www.cygqw.com/jiexi/jiekou-2/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "4-parwix1",
         "type": 0,
         "url": "https://jx.bozrc.com:4433/player/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "星辰云解析",
         "type": 1,
         "url": "https://json.xn--9kq078cdn3a.cc/api/?key=GMp1H9mKRKVriBulRT&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "刚刚走过",
         "type": 1,
         "url": "http://jx.fuqizhishi.com:63/API.php?appkey=feimao&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "tg255免费",
         "type": 1,
         "url": "https://jx.255jx.tk/api/?key=YYac1YA1lkwwf3an4G&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "江湖1080",
         "type": 1,
         "url": "http://211.99.99.236:4567/jhjson/ceshi.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "keyu",
         "type": 1,
         "url": "http://newjiexi.gotka.top/keyu3.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "Super",
         "type": 4,
         "url": "https://super.playr.top/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "观山",
         "type": 0,
         "url": "https://p10.zijincao.cc/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "777",
         "type": 0,
         "url": "https://www.huaqi.live/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "365",
         "type": 0,
         "url": "https://chaxun.truechat365.com/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "parwix1",
         "type": 0,
         "url": "https://jx.parwix.com:4433/player/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "parwix2",
         "type": 0,
         "url": "https://jx.parwix.com:4433/player/analysis.php?v=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "油果",
         "type": 1,
         "url": "http://json.youguo520.top/fufeng/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "懒懒1",
         "type": 1,
         "url": "http://123.57.56.94:9931/lanlan/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "EXO",
         "type": 0,
         "url": "https://rx.69mj.com/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "测试",
         "type": 1,
         "url": "http://27.124.4.42:4567/jhjson/ceshi.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "菜妮丝",
         "type": 0,
         "url": "https://jx.cainisi.cf/?v=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "bl解析",
         "type": 0,
         "url": "https://vip.bljiex.com/?v=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "诺讯",
         "type": 0,
         "url": "https://www.nxflv.com/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "盘古",
         "type": 0,
         "url": "https://www.pangujiexi.cc/jiexi.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "RDHK",
         "type": 0,
         "url": "https://jx.rdhk.net/?v=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "17云",
         "type": 0,
         "url": "https://www.1717yun.com/jx/ty.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "H8",
         "type": 0,
         "url": "https://www.h8jx.com/jiexi.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💕推荐",
         "type": 1,
         "url": "http://42.157.129.144:2323/CH/caihong_1993138546.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💕推荐0",
         "type": 1,
         "url": "http://jxxcc-cc.dianshia.top:8821/api/?key=UAOfSBFIaFI3IvLi8r&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💕推荐1",
         "type": 1,
         "url": "http://122.228.84.103:7777/api/?key=TJ5aojxggobuP4CTTw&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💕推荐2",
         "type": 1,
         "url": "http://42.157.129.139:7788/json/aiku.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "❤️分享几乎",
         "type": 0,
         "url": "http://103.233.255.142:1133/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💕分享麻衣",
         "type": 1,
         "url": "http://y1.ys.33love.cn:8665/lunxun/index.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💕分享官差",
         "type": 1,
         "url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🈳️分享空白",
         "type": 1,
         "url": "http://119.91.31.224:9004/changzhang.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "👍分享双赞",
         "type": 1,
         "url": "http://121.62.61.51:6888/api/?key=qy9VEMeeqwl3nI4gvA&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💋分享自动",
         "type": 1,
         "url": "http://json.84jia.com/home/api?type=ys&uid=11154896&key=cefgiksvwyCGINV047&url=",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "分享智能",
         "type": 1,
         "url": "https://api.json.icu/api/?key=0bfb59b5928233f5665db10ebcade96f&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "分享智能2",
         "type": 1,
         "url": "https://py.newdays.cc/lunxun/json.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "分享飞魚",
         "type": 1,
         "url": "http://122.228.84.103:7777/api/?key=qhBtN1ciPmdvPV83tX&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享者2",
         "type": 1,
         "url": "https://stray.serv00.net/s3.php?url=",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享者3",
         "type": 1,
         "url": "https://stray.serv00.net/s4.php?url=",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💖分享者4",
         "type": 1,
         "url": "https://stray.serv00.net/s5.php?url=",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "分享聚合1",
         "type": 1,
         "url": "https://api.xn--od1aq39b.net/api/?key=l80ttV8dvu7OXdFShJ&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "分享聚合2",
         "type": 1,
         "url": "https://jxjson.cf/json_balabala.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "分享聚合",
         "type": 1,
         "url": "http://42.51.37.161:5678/json/520239app9/gf2.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "分享官解",
         "type": 1,
         "url": "http://jx.lem.icu/api/?key=027181cefdc41cfdd2efa074f2fcf722&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "★左岸★",
         "type": 1,
         "url": "http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "臻享",
         "type": "1",
         "url": "https://jk.123zy.cool/jx/jx.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "盘古",
         "type": 0,
         "url": "http://www.pangujiexi.cc/jiexi.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "解析la",
         "type": 0,
         "url": "https://api.jiexi.la/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "影探",
         "type": 1,
         "url": "http://jiexi.lyyytv.cn/json.php?url=",
-        "reason": "http_403",
-        "status": 403
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "m3u8-77lehuo",
         "type": 0,
         "url": "https://player.77lehuo.com/aliplayer/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "m3u8-ttbfp1",
@@ -3061,337 +3005,330 @@
         "name": "m3u8-zy",
         "type": 0,
         "url": "https://aa.m3u8zy.fun/nk/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "m3u8-sstv",
         "type": 0,
         "url": "https://live.fanmingming.com/player/?vurl=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "公众号：六趣",
         "type": 1,
         "url": "http://kmp.us.kg/api/?key=A2gODYCEHBd4tVLsbv&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "不知道谁的",
         "type": 1,
         "url": "http://1.94.244.214:8889/geturl?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "夜猫超聚合",
         "type": 1,
         "url": "https://hd.396pay.cn/lib/diy/?key=pFELnzclw6RdhxNlH6&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "高清解析",
         "type": 1,
         "url": "https://jxjson.cf/json.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "腾讯专用",
         "type": "1",
         "url": "https://api.8l2.cn/lib/?key=5c9905a3dc0bef77647d1bb4a1d319ad&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "高清嗅探",
         "type": 0,
         "url": "https://jx.777jiexi.com/player/?next=https://www.woaimoon.com/vod/98780-9-2.html&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "dy6g",
         "type": 0,
         "url": "https://vip.lianfaka.com/vip/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🐱3号",
         "type": 0,
         "url": "https://jiexi.555jiexi.net:555/player/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🐱21号",
         "type": 0,
         "url": "https://jx.ppjbk.cn/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🐱30号",
         "type": 0,
         "url": "https://jx.kingtail.xyz/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🐱战狼",
         "type": 0,
         "url": "https://jx.zhanlangbu.com/?url",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🐱腾讯备用",
         "type": 0,
         "url": "https://go.yh0523.cn/y.cy?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🐱手动点击json播",
         "type": 0,
         "url": "https://jx.jsonplayer.com/player/?=&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "魏晓芳",
         "type": 1,
         "url": "https://svip.renrenmi.cc:2222/api/?key=ogGC18CjsACNo60r3E&url=",
-        "reason": "conn_error",
-        "status": -1
-      },
-      {
-        "name": "fuqi",
-        "type": 1,
-        "url": "https://play.fuqizhishi.com/maotv/API.php?appkey=xiongdimenbieguaiwodingbuzhulegailekey07201538&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "盘古",
         "type": 0,
         "url": "https://www.m3u8.tv.cdn.8old.cn/jx.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "左岸",
         "type": 1,
         "url": "http://110.42.2.115:880/analysis/json/?uid=2100&my=fgjnoqstLMRUZ03489&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "太空",
         "type": 1,
         "url": "http://124.222.68.182/jiexi/4kJX.php/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "未知",
         "type": 1,
         "url": "http://106.52.218.221:88/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "随便1",
         "type": 1,
         "url": "http://cl.yjhan.com:8090/home/api?type=ys&uid=821518&key=aghlmnyBFIJMPRX489&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "LTRX",
         "type": 1,
         "url": "https://svip.spchat.top/api/?type=ys&key=bKemW41JnxmQb4l67h&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "OJBK",
         "type": 0,
         "url": "https://jmwl.qd234.cn/v/?v=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "线路m9",
         "type": 1,
         "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "①秒播",
         "type": 1,
         "url": "https://jx.hfyrw.com/mao.go?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "③秒播",
         "type": 1,
         "url": "http://81.71.48.249:4456/jsonc/293shipin.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "④秒播",
         "type": 1,
         "url": "http://106.55.234.91:4433/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "⑤秒播",
         "type": 1,
         "url": "http://81.71.48.249:4456/jsonc/longxia.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "⑦秒播",
         "type": 1,
         "url": "https://app.okmedcos.com/4k/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "⑧秒播",
         "type": 1,
         "url": "https://jie.1z1.cc/api/?key=HdMmTMfyf1uTOQUL0b&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "Pro",
         "type": 1,
         "url": "http://api.vip123kan.vip/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "2",
         "type": 1,
         "url": "https://jx.mczdyw.com/xg.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "3",
         "type": 1,
         "url": "https://www.aiaine.com/api/?key=kVqmG5dAQ5dZTcECw8&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "4",
         "type": 1,
         "url": "https://svip.rongxingvr.top/api/?key=niBgMGXVdCQhsmeEBK&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "8",
         "type": 1,
         "url": "https://app.iminna.com/jx/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "飓风影院2",
         "type": 1,
         "url": "https://vvip.funsline.cn/api/?key=3xWfEoDf4V9p9Y20CR&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "我爱电影网",
         "type": 1,
         "url": "https://jhpc.manduhu.com/j1217.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "王牌",
         "type": 1,
         "url": "https://za.kuanjv.com/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "盘古解析",
         "type": 1,
         "url": "https://json.pangujiexi.com:12345/json.php?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "HG独家解析2",
         "type": 1,
         "url": "https://json2.hgyx.vip/home/api?type=ys&uid=2941923&key=efghjlsxABEFHIKMOZ&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "解析06",
         "type": 0,
         "url": "https://dmjx.m3u8.tv/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享者解析①",
         "type": 1,
         "url": "https://test1.12321app.com/daoliansiquanjia.php?url=",
-        "reason": "http_502",
-        "status": 502
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享者解析③",
         "type": 1,
         "url": "https://json.xophp.com/api/?key=5492ef7d5a1646338426e2f45b8c8e0d&url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享者解析④",
         "type": 1,
         "url": "https://player.gimy.bot/u/parse.php?url=",
-        "reason": "http_400",
-        "status": 400
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💝分享者解析✻",
         "type": 1,
         "url": "http://111.170.140.70:1332/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💕分享者嗅探*",
         "type": 0,
         "url": "http://154.44.26.196/player/qu.php?v=",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "💕分享西瓜",
         "type": 0,
         "url": "https://t1.qlplayer.cyou/player/?url=",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "blacklisted",
+        "status": 0
       }
     ]
   },
@@ -3402,7 +3339,7 @@
       "sites": 146,
       "sites_alive": 62,
       "sites_dead": 43,
-      "sites_blacklisted": 0,
+      "sites_blacklisted": 42,
       "sites_client": 41,
       "lives": 7,
       "lives_dead": 2,
@@ -3412,9 +3349,9 @@
     {
       "src": "88555f59a5052669.json",
       "sites": 341,
-      "sites_alive": 6,
-      "sites_dead": 35,
-      "sites_blacklisted": 0,
+      "sites_alive": 7,
+      "sites_dead": 34,
+      "sites_blacklisted": 34,
       "sites_client": 300,
       "lives": 1,
       "lives_dead": 0,
@@ -3423,34 +3360,22 @@
     },
     {
       "src": "48d6f5585020133d.json",
-      "sites": 134,
-      "sites_alive": 73,
-      "sites_dead": 23,
-      "sites_blacklisted": 0,
-      "sites_client": 38,
+      "sites": 136,
+      "sites_alive": 75,
+      "sites_dead": 22,
+      "sites_blacklisted": 19,
+      "sites_client": 39,
       "lives": 0,
       "lives_dead": 0,
       "parses": 1,
       "parses_dead": 1
     },
     {
-      "src": "253aa275bbe1f5eb.json",
-      "sites": 50,
-      "sites_alive": 32,
-      "sites_dead": 13,
-      "sites_blacklisted": 0,
-      "sites_client": 5,
-      "lives": 1,
-      "lives_dead": 0,
-      "parses": 1,
-      "parses_dead": 0
-    },
-    {
       "src": "8057431bda2f8a19.json",
       "sites": 210,
       "sites_alive": 10,
       "sites_dead": 12,
-      "sites_blacklisted": 0,
+      "sites_blacklisted": 12,
       "sites_client": 188,
       "lives": 14,
       "lives_dead": 11,
@@ -3462,7 +3387,7 @@
       "sites": 138,
       "sites_alive": 34,
       "sites_dead": 11,
-      "sites_blacklisted": 0,
+      "sites_blacklisted": 2,
       "sites_client": 93,
       "lives": 2,
       "lives_dead": 1,
@@ -3474,7 +3399,7 @@
       "sites": 68,
       "sites_alive": 0,
       "sites_dead": 10,
-      "sites_blacklisted": 0,
+      "sites_blacklisted": 10,
       "sites_client": 58,
       "lives": 0,
       "lives_dead": 0,
@@ -3482,23 +3407,35 @@
       "parses_dead": 0
     },
     {
+      "src": "253aa275bbe1f5eb.json",
+      "sites": 49,
+      "sites_alive": 34,
+      "sites_dead": 10,
+      "sites_blacklisted": 10,
+      "sites_client": 5,
+      "lives": 1,
+      "lives_dead": 0,
+      "parses": 1,
+      "parses_dead": 0
+    },
+    {
       "src": "4gg4.json",
       "sites": 159,
-      "sites_alive": 45,
-      "sites_dead": 10,
-      "sites_blacklisted": 0,
+      "sites_alive": 46,
+      "sites_dead": 9,
+      "sites_blacklisted": 6,
       "sites_client": 104,
       "lives": 32,
       "lives_dead": 7,
       "parses": 13,
-      "parses_dead": 2
+      "parses_dead": 1
     },
     {
       "src": "bzm.json",
       "sites": 226,
       "sites_alive": 6,
       "sites_dead": 8,
-      "sites_blacklisted": 0,
+      "sites_blacklisted": 8,
       "sites_client": 212,
       "lives": 3,
       "lives_dead": 1,
@@ -3510,7 +3447,7 @@
       "sites": 143,
       "sites_alive": 5,
       "sites_dead": 8,
-      "sites_blacklisted": 0,
+      "sites_blacklisted": 8,
       "sites_client": 130,
       "lives": 1,
       "lives_dead": 1,
@@ -3522,7 +3459,7 @@
       "sites": 79,
       "sites_alive": 7,
       "sites_dead": 6,
-      "sites_blacklisted": 0,
+      "sites_blacklisted": 6,
       "sites_client": 66,
       "lives": 12,
       "lives_dead": 6,
@@ -3534,7 +3471,7 @@
       "sites": 73,
       "sites_alive": 15,
       "sites_dead": 5,
-      "sites_blacklisted": 0,
+      "sites_blacklisted": 5,
       "sites_client": 53,
       "lives": 1,
       "lives_dead": 0,
@@ -3546,7 +3483,7 @@
       "sites": 64,
       "sites_alive": 1,
       "sites_dead": 5,
-      "sites_blacklisted": 0,
+      "sites_blacklisted": 5,
       "sites_client": 58,
       "lives": 16,
       "lives_dead": 13,
@@ -3554,23 +3491,11 @@
       "parses_dead": 0
     },
     {
-      "src": "e691052708d5d512.json",
-      "sites": 12,
-      "sites_alive": 1,
-      "sites_dead": 4,
-      "sites_blacklisted": 0,
-      "sites_client": 7,
-      "lives": 5,
-      "lives_dead": 4,
-      "parses": 2,
-      "parses_dead": 2
-    },
-    {
       "src": "4k.json",
       "sites": 103,
       "sites_alive": 34,
       "sites_dead": 3,
-      "sites_blacklisted": 0,
+      "sites_blacklisted": 3,
       "sites_client": 66,
       "lives": 1,
       "lives_dead": 1,
@@ -3582,7 +3507,7 @@
       "sites": 26,
       "sites_alive": 2,
       "sites_dead": 3,
-      "sites_blacklisted": 0,
+      "sites_blacklisted": 3,
       "sites_client": 21,
       "lives": 0,
       "lives_dead": 0,
@@ -3590,11 +3515,23 @@
       "parses_dead": 7
     },
     {
+      "src": "e691052708d5d512.json",
+      "sites": 12,
+      "sites_alive": 2,
+      "sites_dead": 3,
+      "sites_blacklisted": 2,
+      "sites_client": 7,
+      "lives": 5,
+      "lives_dead": 4,
+      "parses": 2,
+      "parses_dead": 2
+    },
+    {
       "src": "2ed2460da5a659e8.json",
       "sites": 80,
       "sites_alive": 8,
       "sites_dead": 2,
-      "sites_blacklisted": 0,
+      "sites_blacklisted": 2,
       "sites_client": 70,
       "lives": 11,
       "lives_dead": 6,
@@ -3606,7 +3543,7 @@
       "sites": 23,
       "sites_alive": 0,
       "sites_dead": 2,
-      "sites_blacklisted": 0,
+      "sites_blacklisted": 2,
       "sites_client": 21,
       "lives": 1,
       "lives_dead": 1,
@@ -3614,35 +3551,11 @@
       "parses_dead": 6
     },
     {
-      "src": "x.json",
-      "sites": 36,
-      "sites_alive": 17,
-      "sites_dead": 2,
-      "sites_blacklisted": 0,
-      "sites_client": 17,
-      "lives": 10,
-      "lives_dead": 4,
-      "parses": 10,
-      "parses_dead": 8
-    },
-    {
-      "src": "2274a4fb3779ed17.json",
-      "sites": 76,
-      "sites_alive": 1,
-      "sites_dead": 1,
-      "sites_blacklisted": 0,
-      "sites_client": 74,
-      "lives": 8,
-      "lives_dead": 8,
-      "parses": 0,
-      "parses_dead": 0
-    },
-    {
       "src": "29e6a431fbf52df9.json",
       "sites": 11,
       "sites_alive": 3,
       "sites_dead": 1,
-      "sites_blacklisted": 0,
+      "sites_blacklisted": 1,
       "sites_client": 7,
       "lives": 1,
       "lives_dead": 0,
@@ -3654,7 +3567,7 @@
       "sites": 43,
       "sites_alive": 11,
       "sites_dead": 1,
-      "sites_blacklisted": 0,
+      "sites_blacklisted": 1,
       "sites_client": 31,
       "lives": 0,
       "lives_dead": 0,
@@ -3662,38 +3575,14 @@
       "parses_dead": 0
     },
     {
-      "src": "61bbccbfb1eb4eda.json",
-      "sites": 1072,
-      "sites_alive": 1,
-      "sites_dead": 1,
-      "sites_blacklisted": 0,
-      "sites_client": 1070,
-      "lives": 36,
-      "lives_dead": 15,
-      "parses": 3,
-      "parses_dead": 1
-    },
-    {
       "src": "b0baa7ee68bbdbba.json",
       "sites": 39,
       "sites_alive": 0,
       "sites_dead": 1,
-      "sites_blacklisted": 0,
+      "sites_blacklisted": 1,
       "sites_client": 38,
       "lives": 0,
       "lives_dead": 0,
-      "parses": 0,
-      "parses_dead": 0
-    },
-    {
-      "src": "bcc58a1a733343e7.json",
-      "sites": 3,
-      "sites_alive": 1,
-      "sites_dead": 1,
-      "sites_blacklisted": 0,
-      "sites_client": 1,
-      "lives": 3,
-      "lives_dead": 2,
       "parses": 0,
       "parses_dead": 0
     },
@@ -3702,7 +3591,7 @@
       "sites": 37,
       "sites_alive": 0,
       "sites_dead": 1,
-      "sites_blacklisted": 0,
+      "sites_blacklisted": 1,
       "sites_client": 36,
       "lives": 3,
       "lives_dead": 3,
@@ -3714,12 +3603,24 @@
       "sites": 34,
       "sites_alive": 1,
       "sites_dead": 1,
-      "sites_blacklisted": 0,
+      "sites_blacklisted": 1,
       "sites_client": 32,
       "lives": 0,
       "lives_dead": 0,
       "parses": 0,
       "parses_dead": 0
+    },
+    {
+      "src": "x.json",
+      "sites": 36,
+      "sites_alive": 18,
+      "sites_dead": 1,
+      "sites_blacklisted": 1,
+      "sites_client": 17,
+      "lives": 10,
+      "lives_dead": 5,
+      "parses": 10,
+      "parses_dead": 8
     },
     {
       "src": "0f2b640d70d3efef.json",
@@ -3758,6 +3659,18 @@
       "parses_dead": 0
     },
     {
+      "src": "2274a4fb3779ed17.json",
+      "sites": 76,
+      "sites_alive": 2,
+      "sites_dead": 0,
+      "sites_blacklisted": 0,
+      "sites_client": 74,
+      "lives": 8,
+      "lives_dead": 8,
+      "parses": 0,
+      "parses_dead": 0
+    },
+    {
       "src": "2f1a8b8cfacd4c79.json",
       "sites": 32,
       "sites_alive": 4,
@@ -3782,9 +3695,21 @@
       "parses_dead": 0
     },
     {
-      "src": "3d7bbb5e937c1c32.json",
-      "sites": 27,
+      "src": "3bf93abe55fa4b55.json",
+      "sites": 2,
       "sites_alive": 0,
+      "sites_dead": 0,
+      "sites_blacklisted": 0,
+      "sites_client": 2,
+      "lives": 0,
+      "lives_dead": 0,
+      "parses": 0,
+      "parses_dead": 0
+    },
+    {
+      "src": "3d7bbb5e937c1c32.json",
+      "sites": 29,
+      "sites_alive": 2,
       "sites_dead": 0,
       "sites_blacklisted": 0,
       "sites_client": 27,
@@ -3804,6 +3729,18 @@
       "lives_dead": 0,
       "parses": 0,
       "parses_dead": 0
+    },
+    {
+      "src": "61bbccbfb1eb4eda.json",
+      "sites": 1072,
+      "sites_alive": 2,
+      "sites_dead": 0,
+      "sites_blacklisted": 0,
+      "sites_client": 1070,
+      "lives": 36,
+      "lives_dead": 18,
+      "parses": 3,
+      "parses_dead": 1
     },
     {
       "src": "64ff5e0c420abfab.json",
@@ -3867,11 +3804,11 @@
     },
     {
       "src": "7d1afd7dd32144d8.json",
-      "sites": 3,
+      "sites": 4,
       "sites_alive": 0,
       "sites_dead": 0,
       "sites_blacklisted": 0,
-      "sites_client": 3,
+      "sites_client": 4,
       "lives": 0,
       "lives_dead": 0,
       "parses": 0,
@@ -3947,7 +3884,19 @@
       "lives": 2,
       "lives_dead": 0,
       "parses": 28,
-      "parses_dead": 25
+      "parses_dead": 24
+    },
+    {
+      "src": "bcc58a1a733343e7.json",
+      "sites": 3,
+      "sites_alive": 2,
+      "sites_dead": 0,
+      "sites_blacklisted": 0,
+      "sites_client": 1,
+      "lives": 3,
+      "lives_dead": 2,
+      "parses": 0,
+      "parses_dead": 0
     },
     {
       "src": "cat.json",
@@ -4132,338 +4081,16 @@
   ],
   "recovered": [
     {
-      "id": "sites::豆瓣1",
-      "name": "❤更新10-05❤"
-    },
-    {
-      "id": "sites::4kvm_js",
-      "name": "🎁4K影视JS"
-    },
-    {
-      "id": "sites::4kvm_py",
-      "name": "🎁4K影视py"
-    },
-    {
-      "id": "sites::hongniu",
-      "name": "🎉红牛|采集 [0.7s]"
-    },
-    {
-      "id": "sites::xinlang",
-      "name": "🎉新浪|采集"
-    },
-    {
-      "id": "sites::jinying",
-      "name": "🎉金鹰|采集"
-    },
-    {
-      "id": "sites::jisu",
-      "name": "🎉极速|采集"
-    },
-    {
-      "id": "sites::huya",
-      "name": "🎉虎牙|采集"
-    },
-    {
-      "id": "sites::subo",
-      "name": "🎉速播|高清 [0.7s]"
-    },
-    {
-      "id": "sites::iqiyi",
-      "name": "🎉爱奇y|采集"
-    },
-    {
-      "id": "sites::bfzy",
-      "name": "🎉暴风|采集"
-    },
-    {
-      "id": "sites::bdzy1",
-      "name": "🎉百度y|采集"
-    },
-    {
-      "id": "sites::guangsu",
-      "name": "光速资源 [1.5s]"
-    },
-    {
-      "id": "sites::haohua",
-      "name": "豪华资源2 [1.9s]"
-    },
-    {
-      "id": "sites::maoyan",
-      "name": "猫眼资源 [1.8s]"
-    },
-    {
-      "id": "sites::魔都资源",
-      "name": "魔都动漫┃刺桐"
-    },
-    {
-      "id": "sites::guangsu2",
-      "name": "光速资源(gsm3u8) [1.5s]"
-    },
-    {
-      "id": "sites::hongniu3",
-      "name": "红牛资源(hnm3u8) [1.5s]"
-    },
-    {
-      "id": "sites::dyttzy",
-      "name": "电影天堂资源 [1.8s]"
-    },
-    {
-      "id": "sites::ruyi_2",
-      "name": "如意资源(2) [2.0s]"
-    },
-    {
-      "id": "sites::ffzy",
-      "name": "非凡影视 [1.8s]"
-    },
-    {
-      "id": "sites::ffzy2",
-      "name": "非凡影视2 [2.0s]"
-    },
-    {
-      "id": "sites::ffzy3",
-      "name": "非凡影视3 [2.0s]"
-    },
-    {
-      "id": "sites::zy360",
-      "name": "360资源 [1.9s]"
-    },
-    {
-      "id": "sites::mdzy",
-      "name": "魔都资源 [1.9s]"
-    },
-    {
-      "id": "sites::zuid",
-      "name": "最大资源 [1.8s]"
-    },
-    {
-      "id": "sites::wujin2",
-      "name": "无尽资源2 [2.5s]"
-    },
-    {
-      "id": "sites::lzi",
-      "name": "量子资源 [1.8s]"
-    },
-    {
-      "id": "sites::jyzy",
-      "name": "金鹰资源 [1.8s]"
-    },
-    {
-      "id": "sites::uku2",
-      "name": "U酷资源2 [1.8s]"
-    },
-    {
-      "id": "sites::hhzy",
-      "name": "豪华资源 [1.8s]"
-    },
-    {
-      "id": "sites::ckzy",
-      "name": "CK资源 [1.8s]"
-    },
-    {
-      "id": "sites::hongniu2",
-      "name": "红牛资源2 [1.7s]"
-    },
-    {
-      "id": "sites::lzi2",
-      "name": "量子资源(lzm3u8) [2.7s]"
-    },
-    {
-      "id": "sites::jinying2",
-      "name": "金鹰资源(jinyingm3u8) [2.5s]"
-    },
-    {
-      "id": "sites::360m3u8",
-      "name": "360资源(m3u8) [2.8s]"
-    },
-    {
-      "id": "sites::jsm3u8",
-      "name": "极速资源(jsm3u8) [1.9s]"
-    },
-    {
-      "id": "sites::hhm3u8",
-      "name": "豪华资源(hhm3u8) [1.9s]"
-    },
-    {
-      "id": "sites::zuidazy2",
-      "name": "最大资源2 [1.9s]"
-    },
-    {
-      "id": "sites::红牛资源",
-      "name": "红牛资源(切)"
-    },
-    {
-      "id": "sites::哔哩直播",
-      "name": "哔哩｜直播"
-    },
-    {
-      "id": "sites::速播",
-      "name": "速播 | 采集"
-    },
-    {
-      "id": "sites::艾旦",
-      "name": "艾旦 | 采集"
-    },
-    {
-      "id": "sites::csp_xml_ckzy",
-      "name": "❤ckzy"
-    },
-    {
-      "id": "sites::豆瓣(js)",
-      "name": "💥豆瓣"
-    },
-    {
-      "id": "sites::csp_CandyMuj_duanju",
-      "name": "💥短剧网"
-    },
-    {
-      "id": "sites::csp_zhibo_douyu",
-      "name": "💥斗鱼直播"
-    },
-    {
-      "id": "sites::csp_zhibo_huya",
-      "name": "💥虎牙直播"
-    },
-    {
-      "id": "sites::csp_zhibo_bili",
-      "name": "💥哔哩直播"
-    },
-    {
-      "id": "sites::我的哔哩(js)",
-      "name": "💥哔哩合集"
-    },
-    {
-      "id": "sites::爱看(js)",
-      "name": "💥爱看"
-    },
-    {
-      "id": "sites::厂长(js)",
-      "name": "💥厂长"
-    },
-    {
-      "id": "sites::低端(js)",
-      "name": "💥低端"
-    },
-    {
-      "id": "sites::两个BT(js)",
-      "name": "💥两个BT"
-    },
-    {
-      "id": "sites::怡萱动漫(js)",
-      "name": "💥怡萱动漫"
-    },
-    {
-      "id": "sites::子子影视(js)",
-      "name": "💥子子影视"
-    },
-    {
-      "id": "sites::剧王短剧",
-      "name": "剧王｜短剧"
-    },
-    {
-      "id": "sites::速博资源",
-      "name": "速博资源┃刺桐"
-    },
-    {
-      "id": "sites::奇异果",
-      "name": "💖分享异果"
-    },
-    {
-      "id": "lives::https://ghfast.top/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-      "name": "Kimentanm"
-    },
-    {
-      "id": "lives::https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
-      "name": "综合直播"
-    },
-    {
-      "id": "lives::https://cdn.jsdmirror.com/gh/1539971456/ys-tvbox@main/iptv/iptv.txt",
-      "name": "安忆收集1"
-    },
-    {
-      "id": "lives::https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u",
-      "name": "Guovin"
-    },
-    {
-      "id": "lives::http://gh-proxy.org/https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt",
-      "name": "EPG直播"
-    },
-    {
-      "id": "lives::https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-      "name": "Kimentanm"
-    },
-    {
-      "id": "lives::https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u",
-      "name": "suxuang"
-    },
-    {
-      "id": "lives::https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u",
-      "name": "gambiarras"
-    },
-    {
-      "id": "lives::https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/YTTV.txt",
-      "name": "YOUTUBE直播"
-    },
-    {
-      "id": "lives::https://ghfast.top/raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt",
-      "name": "电视直播"
-    },
-    {
-      "id": "lives::https://ghfast.top/https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt",
-      "name": "直播"
-    },
-    {
-      "id": "parses::https://jx.789jiexi.net:4433/?url=",
-      "name": "3号接口"
-    },
-    {
-      "id": "parses::http://okjx.cc/?url=",
-      "name": "5-OK解析"
-    },
-    {
-      "id": "parses::http://jx.dygfsdy.com/home/api?type=ys&uid=129415&key=acdmoruwxCDEKPZ679&url=",
-      "name": "荣兴"
-    },
-    {
-      "id": "parses::https://h5.freejson.xyz/player/?url=",
-      "name": "freejson"
-    },
-    {
-      "id": "parses::http://lanlan.ckflv.cn/?url=",
-      "name": "懒懒2"
-    },
-    {
-      "id": "parses::https://play.dadiapi.com/watch?url=",
-      "name": "m3u8-dadiapi"
-    },
-    {
-      "id": "parses::https://parse.123mingren.com/?url=",
-      "name": "🐱33号"
-    },
-    {
-      "id": "parses::https://www.nfjx.xyz/home/api?type=ys&uid=5767995&key=ijkmovxDEHIJPQRW69&url=",
-      "name": "随便2"
-    }
-  ],
-  "newly_dead": [
-    {
       "id": "sites::liangzi",
       "name": "💖分享量子"
     },
     {
-      "id": "sites::Cat_梨园戏",
-      "name": "🌸梨园丨戏曲 [0.8s]"
-    },
-    {
-      "id": "sites::cat体育聚合",
-      "name": "⚽聚合｜球赛 [0.8s]"
-    },
-    {
-      "id": "sites::Cat_聚合儿歌",
-      "name": "👶聚合丨儿童 [1.2s]"
-    },
-    {
       "id": "sites::量子资源",
       "name": "量子资源┃刺桐"
+    },
+    {
+      "id": "sites::爱奇艺资源",
+      "name": "爱奇艺资源┃刺桐"
     },
     {
       "id": "sites::vod_量子资源",
@@ -4474,32 +4101,34 @@
       "name": "🦚360┃采集"
     },
     {
-      "id": "sites::豆瓣资源",
-      "name": "💖分享豆瓣"
-    },
-    {
-      "id": "sites::刺桐资源",
-      "name": "刺桐高清┃自营"
-    },
-    {
       "id": "sites::csp_xml_量子资源",
       "name": "🐝量子资源"
-    },
-    {
-      "id": "lives::https://gh.halonice.com/https:/raw.githubusercontent.com/big-mouth-cn/tv/main/iptv-ok.m3u",
-      "name": "BMCH"
     },
     {
       "id": "parses::https://jx.789jiexi.com/?url=",
       "name": "7号解析"
     },
     {
-      "id": "parses::https://jiexi.ttbfp1.com/m3u8/?url=",
-      "name": "m3u8-ttbfp1"
-    },
-    {
       "id": "parses::https://play.fuqizhishi.com/maotv/API.php?appkey=xiongdimenbieguaiwodingbuzhulegailekey07201538&url=",
       "name": "fuqi"
+    }
+  ],
+  "newly_dead": [
+    {
+      "id": "lives::https://z.szyyds.cn/iptv",
+      "name": "自动更新"
+    },
+    {
+      "id": "lives::https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/CTVLive/main/live.txt",
+      "name": "雷蒙影视电视直播"
+    },
+    {
+      "id": "lives::https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/CTVLive/main/litelive.m3u",
+      "name": "雷蒙影视轻量直播"
+    },
+    {
+      "id": "lives::https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/LIVE/ctvpv.txt",
+      "name": "雷蒙影视宣传片"
     }
   ],
   "fetch_dead": [
@@ -4864,7 +4493,7 @@
     "sites::maoyan": "alive",
     "sites::youzhi": "alive",
     "sites::shandian": "alive",
-    "sites::liangzi": "dead",
+    "sites::liangzi": "alive",
     "sites::zuida": "alive",
     "sites::niuniu": "alive",
     "sites::suoni": "alive",
@@ -5388,7 +5017,7 @@
     "sites::csp_SNzy": "alive",
     "sites::taopian": "client",
     "sites::csp_非凡资源": "dead",
-    "sites::量子资源": "dead",
+    "sites::量子资源": "alive",
     "sites::feisu": "dead",
     "sites::奇虎资源": "dead",
     "sites::可可资源": "dead",
@@ -6411,7 +6040,7 @@
     "sites::MV大全": "dead",
     "sites::csp_QQ": "dead",
     "sites::芒果资源": "dead",
-    "sites::爱奇艺资源": "dead",
+    "sites::爱奇艺资源": "alive",
     "sites::优酷资源": "dead",
     "sites::搜狐资源": "dead",
     "sites::csp_XYQHikerdyx": "client",
@@ -6470,7 +6099,7 @@
     "sites::drjs_爱看机器人2": "client",
     "sites::drjs_雷蒙直播": "client",
     "sites::drjs_雷蒙资源": "client",
-    "sites::vod_量子资源": "dead",
+    "sites::vod_量子资源": "alive",
     "sites::vod_非凡资源": "alive",
     "sites::csp_XBPQ_看客": "client",
     "sites::csp_XBPQ_卫总": "client",
@@ -7863,6 +7492,7 @@
     "sites::csp_XYQHiker_虎牙直播": "client",
     "sites::csp_XYQHiker_斗鱼直播": "client",
     "sites::弹幕1": "client",
+    "sites::SZ": "alive",
     "sites::懂骗": "dead",
     "sites::影": "dead",
     "sites::山木": "alive",
@@ -7930,7 +7560,7 @@
     "sites::耐看": "alive",
     "sites::肥猫的": "client",
     "sites::csp_SaoHuo": "client",
-    "sites::360": "dead",
+    "sites::360": "alive",
     "sites::剧王短剧": "alive",
     "sites::七猫": "alive",
     "sites::cj_暴风资源": "alive",
@@ -7940,6 +7570,8 @@
     "sites::金鹰资源": "alive",
     "sites::qw": "dead",
     "sites::123": "client",
+    "sites::卡卡": "client",
+    "sites::小丑": "client",
     "sites::觅盘": "client",
     "sites::趣盘": "client",
     "sites::全网短": "alive",
@@ -8185,7 +7817,6 @@
     "sites::✨掌心视界✨": "client",
     "sites::✨短剧大全✨": "client",
     "sites::豆豆": "client",
-    "sites::刺桐资源": "dead",
     "sites::优质资源": "alive",
     "sites::猫眼资源": "alive",
     "sites::牛牛资源": "alive",
@@ -8226,8 +7857,7 @@
     "sites::高中": "client",
     "sites::ysjd": "client",
     "sites::520": "client",
-    "sites::小丑": "client",
-    "sites::卡卡": "client",
+    "sites::搬运": "client",
     "sites::球通体育": "client",
     "sites::听友听书": "client",
     "sites::风云": "client",
@@ -8273,6 +7903,7 @@
     "sites::爱动漫": "client",
     "sites::修罗": "client",
     "sites::雪花": "client",
+    "sites::jiansou": "client",
     "sites::Nostr": "client",
     "sites::TGDouban": "client",
     "sites::网盘配置": "client",
@@ -8355,13 +7986,15 @@
     "sites::csp_HG影视2": "dead",
     "sites::csp_xml_资源": "client",
     "sites::csp_xml_夸克资源": "dead",
-    "sites::csp_xml_量子资源": "dead",
+    "sites::csp_xml_量子资源": "alive",
     "sites::csp_xml_非凡资源": "alive",
     "sites::HG独家解析2": "client",
     "sites::解析02": "client",
     "sites::解析03": "client",
     "sites::解析05": "client",
     "sites::解析06": "client",
+    "sites::pan-cfg": "alive",
+    "sites::ysc-pan": "alive",
     "sites::csp_PianKu8": "client",
     "sites::新首发": "client",
     "sites::麦田": "client",
@@ -8558,7 +8191,7 @@
     "lives::https://develop202.github.io/migu_video/interface.txt": "alive",
     "lives::https://szyyds.cn/tv/live/x.txt": "alive",
     "lives::http://m.szyyds.cn/api.php?token=8664f352657e8b13585bcf0f84fc3512": "alive",
-    "lives::https://z.szyyds.cn/iptv": "alive",
+    "lives::https://z.szyyds.cn/iptv": "dead",
     "lives::https://szyyds.cn/tv/live/yy.txt": "alive",
     "lives::yqk": "alive",
     "lives::http://127.0.0.1:9978/proxy?do=live&url=https://x.szyyds.cn/huyayqk.m3u": "dead",
@@ -8603,9 +8236,9 @@
     "lives::https://raw.gitmirror.com/yw88075/tvbox/main/live.txt": "dead",
     "lives::直播链接自定义": "alive",
     "lives::./lib/live10378.txt": "alive",
-    "lives::https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/CTVLive/main/live.txt": "alive",
-    "lives::https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/CTVLive/main/litelive.m3u": "alive",
-    "lives::https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/LIVE/ctvpv.txt": "alive",
+    "lives::https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/CTVLive/main/live.txt": "dead",
+    "lives::https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/CTVLive/main/litelive.m3u": "dead",
+    "lives::https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/LIVE/ctvpv.txt": "dead",
     "lives::http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/tv.m3u": "dead",
     "lives::https://tv.iill.top/m3u/MyTV": "dead",
     "lives::http://aktv.top/live.m3u": "dead",
@@ -8705,7 +8338,7 @@
     "parses::https://jx.yparse.com/index.php?url=": "alive",
     "parses::https://bd.jx.cn/?url=": "alive",
     "parses::https://jiexi.789jiexi.icu:4433/?url=": "alive",
-    "parses::https://jx.789jiexi.com/?url=": "dead",
+    "parses::https://jx.789jiexi.com/?url=": "alive",
     "parses::https://jx.m3u8.tv/jiexi/?url=": "alive",
     "parses::https://z1.m1907.top/?jx=": "alive",
     "parses::https://www.yemu.xyz/?url=": "alive",
@@ -8892,7 +8525,7 @@
     "parses::https://jx.jsonplayer.com/player/?=&url=": "dead",
     "parses::https://yun.nxflv.com/?url=": "alive",
     "parses::https://svip.renrenmi.cc:2222/api/?key=ogGC18CjsACNo60r3E&url=": "dead",
-    "parses::https://play.fuqizhishi.com/maotv/API.php?appkey=xiongdimenbieguaiwodingbuzhulegailekey07201538&url=": "dead",
+    "parses::https://play.fuqizhishi.com/maotv/API.php?appkey=xiongdimenbieguaiwodingbuzhulegailekey07201538&url=": "alive",
     "parses::https://www.m3u8.tv.cdn.8old.cn/jx.php?url=": "dead",
     "parses::http://110.42.2.115:880/analysis/json/?uid=2100&my=fgjnoqstLMRUZ03489&url=": "dead",
     "parses::http://124.222.68.182/jiexi/4kJX.php/?url=": "dead",
