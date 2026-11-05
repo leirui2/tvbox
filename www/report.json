@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-02 03:03:48",
+  "generated_at": "2026-11-06 03:06:06",
   "summary": {
-    "sites_alive": 440,
-    "sites_dead": 209,
-    "sites_client_dependent": 4112,
-    "lives_alive": 110,
-    "lives_dead": 103,
-    "parses_alive": 75,
-    "parses_dead": 164,
-    "recovered_vs_last_run": 8,
-    "newly_dead_vs_last_run": 3,
+    "sites_alive": 443,
+    "sites_dead": 207,
+    "sites_client_dependent": 4116,
+    "lives_alive": 116,
+    "lives_dead": 104,
+    "parses_alive": 76,
+    "parses_dead": 163,
+    "recovered_vs_last_run": 2,
+    "newly_dead_vs_last_run": 1,
     "sites_unstable": 0,
     "fetch_dead": 55
   },
@@ -47,22 +47,22 @@
         "name": "🥇四影｜影视",
         "type": 3,
         "url": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/4Kvm.js",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "🤣路漫漫┃动漫",
         "type": 3,
         "url": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js",
-        "reason": "blacklisted",
-        "status": 0
+        "reason": "http_404",
+        "status": 404
       },
       {
         "name": "🌸梨园丨戏曲",
         "type": 3,
         "url": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/liyuan_xi.js",
-        "reason": "http_404",
-        "status": 404
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "⚽聚合｜球赛",
@@ -117,8 +117,8 @@
         "name": "🥇荐片｜影视 [0.7s]",
         "type": 3,
         "url": "http://24.233.30.201:5678/js/3222ae9e075e178a986b999b65753308.js",
-        "reason": "http_502",
-        "status": 502
+        "reason": "conn_error",
+        "status": -1
       },
       {
         "name": "🥇毒舌｜影视 [0.6s]",
@@ -131,22 +131,22 @@
         "name": "🥇永乐｜影视 [0.7s]",
         "type": 3,
         "url": "http://24.233.30.201:5678/js/e468bc3c6b9fa9c2fe3f36ffaa863979.js",
-        "reason": "conn_error",
-        "status": -1
+        "reason": "http_502",
+        "status": 502
       },
       {
         "name": "🌸梨园丨戏曲 [0.8s]",
         "type": 3,
         "url": "http://24.233.30.201:5678/js/967e47e6e529fd72651e52c4642aab99.js",
-        "reason": "http_502",
-        "status": 502
+        "reason": "http_404",
+        "status": 404
       },
       {
         "name": "⚽聚合｜球赛 [0.8s]",
         "type": 3,
         "url": "http://24.233.30.201:5678/js/1eac8addc567d1ba0009dfdd0cb9ed6c.js",
-        "reason": "http_502",
-        "status": 502
+        "reason": "http_404",
+        "status": 404
       },
       {
         "name": "🤣路漫漫┃动漫 [1.1s]",
@@ -159,22 +159,22 @@
         "name": "👶聚合丨儿童 [1.2s]",
         "type": 3,
         "url": "http://24.233.30.201:5678/js/cc6de531355b527866cf76b1f9cd8428.js",
-        "reason": "http_502",
-        "status": 502
+        "reason": "http_404",
+        "status": 404
       },
       {
         "name": "👶聚合丨知识 [1.6s]",
         "type": 3,
         "url": "http://24.233.30.201:5678/js/a1a37cc9fe7742055a8059088b25c73a.js",
-        "reason": "blacklisted",
-        "status": 0
+        "reason": "http_404",
+        "status": 404
       },
       {
         "name": "Q群：811845034 [1.6s]",
         "type": 3,
         "url": "http://24.233.30.201:5678/py/2988e2227138e0fdc07a9d346a0a9847.py",
-        "reason": "http_502",
-        "status": 502
+        "reason": "http_404",
+        "status": 404
       },
       {
         "name": "🍀┃如意┃资源 [1.9s]",
@@ -245,20 +245,6 @@
         "url": "https://app.bfzyapi.com/api.php/provide/vod/",
         "reason": "blacklisted",
         "status": 0
-      },
-      {
-        "name": "🎶明星┃MV",
-        "type": 1,
-        "url": "https://mv.wogg.link/mv/vod",
-        "reason": "invalid_content",
-        "status": 200
-      },
-      {
-        "name": "🎁4K影视JS",
-        "type": 3,
-        "url": "https://cdn.jsdmirror.com/gh/1539971456/ys-tvbox@main/js/4kvm.js",
-        "reason": "http_403",
-        "status": 403
       },
       {
         "name": "🥇荐片｜影视",
@@ -1136,27 +1122,6 @@
         "status": 0
       },
       {
-        "name": "豆瓣|推荐",
-        "type": 3,
-        "url": "https://api.hgyx.vip/HGBOX/JS/lib/drpy.min.js",
-        "reason": "conn_error",
-        "status": -1
-      },
-      {
-        "name": "HG影视（备用)",
-        "type": 0,
-        "url": "http://cs.hgyx.vip/api/provide/vod/at/xml/",
-        "reason": "blacklisted",
-        "status": 0
-      },
-      {
-        "name": "🐝夸克资源",
-        "type": 1,
-        "url": "http://kuakezy1.com/api.php/provide/vod/from/M3U8kuake/",
-        "reason": "blacklisted",
-        "status": 0
-      },
-      {
         "name": "🇨🇳分享央视",
         "type": 3,
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/分享央视.py",
@@ -1475,6 +1440,27 @@
         "name": "小咕｜星源",
         "type": 1,
         "url": "https://xy.183933.xyz/php/咪咕.php",
+        "reason": "blacklisted",
+        "status": 0
+      },
+      {
+        "name": "豆瓣|推荐",
+        "type": 3,
+        "url": "https://api.hgyx.vip/HGBOX/JS/lib/drpy.min.js",
+        "reason": "blacklisted",
+        "status": 0
+      },
+      {
+        "name": "HG影视（备用)",
+        "type": 0,
+        "url": "http://cs.hgyx.vip/api/provide/vod/at/xml/",
+        "reason": "blacklisted",
+        "status": 0
+      },
+      {
+        "name": "🐝夸克资源",
+        "type": 1,
+        "url": "http://kuakezy1.com/api.php/provide/vod/from/M3U8kuake/",
         "reason": "blacklisted",
         "status": 0
       }
@@ -1831,6 +1817,13 @@
         "status": 0
       },
       {
+        "name": "雷蒙影视电视直播",
+        "type": 0,
+        "url": "https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/CTVLive/main/live.txt",
+        "reason": "conn_error",
+        "status": -1
+      },
+      {
         "name": "国内直播[今日回看]",
         "type": 0,
         "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/tv.m3u",
@@ -1974,8 +1967,8 @@
         "name": "Tianmu",
         "type": "0",
         "url": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt",
-        "reason": "http_429",
-        "status": 429
+        "reason": "blacklisted",
+        "status": 0
       },
       {
         "name": "live",
@@ -2160,6 +2153,20 @@
         "status": 0
       },
       {
+        "name": "💝分享者直播+",
+        "type": 0,
+        "url": "https://xoxo.cn.mt/Lonely.m3u",
+        "reason": "blacklisted",
+        "status": 0
+      },
+      {
+        "name": "💕分享者直播8",
+        "type": 0,
+        "url": "http://127.0.0.1:10079/c/3600/null/http://lisha521.dynv6.net.fh4u.org/live1.txt",
+        "reason": "blacklisted",
+        "status": 0
+      },
+      {
         "name": "HG独家解析2",
         "type": 1,
         "url": "https://json2.hgyx.vip/home/api?type=ys&uid=2941923&key=efghjlsxABEFHIKMOZ&url=",
@@ -2184,20 +2191,6 @@
         "name": "解析06",
         "type": 0,
         "url": "https://dmjx.m3u8.tv/?url=",
-        "reason": "blacklisted",
-        "status": 0
-      },
-      {
-        "name": "💝分享者直播+",
-        "type": 0,
-        "url": "https://xoxo.cn.mt/Lonely.m3u",
-        "reason": "blacklisted",
-        "status": 0
-      },
-      {
-        "name": "💕分享者直播8",
-        "type": 0,
-        "url": "http://127.0.0.1:10079/c/3600/null/http://lisha521.dynv6.net.fh4u.org/live1.txt",
         "reason": "blacklisted",
         "status": 0
       }
@@ -3289,27 +3282,6 @@
         "status": 0
       },
       {
-        "name": "欢雨",
-        "type": 1,
-        "url": "http://www.youhuifuligou.com/json/?id=7&url=",
-        "reason": "conn_error",
-        "status": -1
-      },
-      {
-        "name": "HG独家解析2",
-        "type": 1,
-        "url": "https://json2.hgyx.vip/home/api?type=ys&uid=2941923&key=efghjlsxABEFHIKMOZ&url=",
-        "reason": "blacklisted",
-        "status": 0
-      },
-      {
-        "name": "解析06",
-        "type": 0,
-        "url": "https://dmjx.m3u8.tv/?url=",
-        "reason": "blacklisted",
-        "status": 0
-      },
-      {
         "name": "💝分享者解析①",
         "type": 1,
         "url": "https://test1.12321app.com/daoliansiquanjia.php?url=",
@@ -3350,6 +3322,20 @@
         "url": "https://t1.qlplayer.cyou/player/?url=",
         "reason": "blacklisted",
         "status": 0
+      },
+      {
+        "name": "HG独家解析2",
+        "type": 1,
+        "url": "https://json2.hgyx.vip/home/api?type=ys&uid=2941923&key=efghjlsxABEFHIKMOZ&url=",
+        "reason": "blacklisted",
+        "status": 0
+      },
+      {
+        "name": "解析06",
+        "type": 0,
+        "url": "https://dmjx.m3u8.tv/?url=",
+        "reason": "blacklisted",
+        "status": 0
       }
     ]
   },
@@ -3381,8 +3367,8 @@
     },
     {
       "src": "48d6f5585020133d.json",
-      "sites": 126,
-      "sites_alive": 69,
+      "sites": 127,
+      "sites_alive": 70,
       "sites_dead": 20,
       "sites_blacklisted": 15,
       "sites_client": 37,
@@ -3420,7 +3406,7 @@
       "sites": 159,
       "sites_alive": 44,
       "sites_dead": 11,
-      "sites_blacklisted": 7,
+      "sites_blacklisted": 8,
       "sites_client": 104,
       "lives": 32,
       "lives_dead": 7,
@@ -3432,7 +3418,7 @@
       "sites": 138,
       "sites_alive": 34,
       "sites_dead": 11,
-      "sites_blacklisted": 3,
+      "sites_blacklisted": 2,
       "sites_client": 93,
       "lives": 2,
       "lives_dead": 1,
@@ -3454,8 +3440,8 @@
     {
       "src": "bzm.json",
       "sites": 226,
-      "sites_alive": 5,
-      "sites_dead": 9,
+      "sites_alive": 6,
+      "sites_dead": 8,
       "sites_blacklisted": 8,
       "sites_client": 212,
       "lives": 3,
@@ -3512,24 +3498,12 @@
       "parses_dead": 0
     },
     {
-      "src": "cs.json",
-      "sites": 26,
-      "sites_alive": 1,
-      "sites_dead": 4,
-      "sites_blacklisted": 3,
-      "sites_client": 21,
-      "lives": 0,
-      "lives_dead": 0,
-      "parses": 9,
-      "parses_dead": 6
-    },
-    {
       "src": "2ed2460da5a659e8.json",
-      "sites": 80,
+      "sites": 81,
       "sites_alive": 7,
       "sites_dead": 3,
       "sites_blacklisted": 2,
-      "sites_client": 70,
+      "sites_client": 71,
       "lives": 11,
       "lives_dead": 5,
       "parses": 5,
@@ -3548,11 +3522,23 @@
       "parses_dead": 5
     },
     {
+      "src": "cs.json",
+      "sites": 26,
+      "sites_alive": 2,
+      "sites_dead": 3,
+      "sites_blacklisted": 3,
+      "sites_client": 21,
+      "lives": 0,
+      "lives_dead": 0,
+      "parses": 9,
+      "parses_dead": 6
+    },
+    {
       "src": "e691052708d5d512.json",
       "sites": 12,
       "sites_alive": 2,
       "sites_dead": 3,
-      "sites_blacklisted": 2,
+      "sites_blacklisted": 3,
       "sites_client": 7,
       "lives": 5,
       "lives_dead": 4,
@@ -3657,11 +3643,11 @@
     },
     {
       "src": "13311e583612e30a.json",
-      "sites": 5,
+      "sites": 6,
       "sites_alive": 0,
       "sites_dead": 0,
       "sites_blacklisted": 0,
-      "sites_client": 5,
+      "sites_client": 6,
       "lives": 2,
       "lives_dead": 1,
       "parses": 0,
@@ -3729,11 +3715,11 @@
     },
     {
       "src": "53e889f9ec879f2f.json",
-      "sites": 19,
+      "sites": 22,
       "sites_alive": 0,
       "sites_dead": 0,
       "sites_blacklisted": 0,
-      "sites_client": 19,
+      "sites_client": 22,
       "lives": 0,
       "lives_dead": 0,
       "parses": 0,
@@ -3747,7 +3733,7 @@
       "sites_blacklisted": 0,
       "sites_client": 1070,
       "lives": 36,
-      "lives_dead": 15,
+      "lives_dead": 16,
       "parses": 3,
       "parses_dead": 1
     },
@@ -3818,7 +3804,7 @@
       "sites_dead": 0,
       "sites_blacklisted": 0,
       "sites_client": 24,
-      "lives": 1,
+      "lives": 0,
       "lives_dead": 0,
       "parses": 0,
       "parses_dead": 0
@@ -3854,7 +3840,7 @@
       "sites_dead": 0,
       "sites_blacklisted": 0,
       "sites_client": 0,
-      "lives": 0,
+      "lives": 8,
       "lives_dead": 0,
       "parses": 0,
       "parses_dead": 0
@@ -3905,7 +3891,7 @@
       "lives": 2,
       "lives_dead": 0,
       "parses": 28,
-      "parses_dead": 25
+      "parses_dead": 24
     },
     {
       "src": "bcc58a1a733343e7.json",
@@ -3957,11 +3943,11 @@
     },
     {
       "src": "d4d42756f6228813.json",
-      "sites": 90,
+      "sites": 89,
       "sites_alive": 0,
       "sites_dead": 0,
       "sites_blacklisted": 0,
-      "sites_client": 90,
+      "sites_client": 89,
       "lives": 0,
       "lives_dead": 0,
       "parses": 0,
@@ -4102,50 +4088,18 @@
   ],
   "recovered": [
     {
-      "id": "sites::魔都资源1",
-      "name": "🎉魔都|采集"
+      "id": "sites::4kvm_js",
+      "name": "🎁4K影视JS"
     },
     {
-      "id": "sites::儿童",
-      "name": "📚┃儿童┃启蒙"
-    },
-    {
-      "id": "sites::qw",
-      "name": "七味"
-    },
-    {
-      "id": "sites::魔都影视",
-      "name": "💝分享魔都"
-    },
-    {
-      "id": "lives::http://gh-proxy.org/https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt",
-      "name": "EPG直播"
-    },
-    {
-      "id": "lives::https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-      "name": "Kimentanm"
-    },
-    {
-      "id": "lives::https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/YTTV.txt",
-      "name": "YOUTUBE直播"
-    },
-    {
-      "id": "lives::http://mg.cttv.vip/migu.php",
-      "name": "live"
+      "id": "parses::http://www.youhuifuligou.com/json/?id=7&url=",
+      "name": "欢雨"
     }
   ],
   "newly_dead": [
     {
-      "id": "sites::应该可以",
-      "name": "🎬4K|蓝光"
-    },
-    {
-      "id": "sites::EmbyJS",
-      "name": "Emby"
-    },
-    {
-      "id": "sites::咕噜画",
-      "name": "💝分享咕噜"
+      "id": "lives::https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/CTVLive/main/live.txt",
+      "name": "雷蒙影视电视直播"
     }
   ],
   "fetch_dead": [
@@ -4485,7 +4439,7 @@
     "sites::豆瓣1": "alive",
     "sites::大米星球": "client",
     "sites::jiguang": "alive",
-    "sites::4kvm_js": "dead",
+    "sites::4kvm_js": "alive",
     "sites::4kvm_py": "alive",
     "sites::yxxq": "alive",
     "sites::看剧AI": "alive",
@@ -5545,6 +5499,7 @@
     "sites::drpy_js_曲奇动漫": "client",
     "sites::维奇": "client",
     "sites::py_douban": "client",
+    "sites::py_yangshipin": "client",
     "sites::py_shortfilm": "client",
     "sites::py_apples": "client",
     "sites::py_maple": "client",
@@ -7514,7 +7469,8 @@
     "sites::DRJS_虎牙": "client",
     "sites::csp_XYQHiker_虎牙直播": "client",
     "sites::csp_XYQHiker_斗鱼直播": "client",
-    "sites::弹幕1": "client",
+    "sites::ai弹幕": "client",
+    "sites::qkw1": "alive",
     "sites::洛雪": "alive",
     "sites::SZ": "alive",
     "sites::懂骗": "dead",
@@ -7745,7 +7701,6 @@
     "sites::AnimeAiMoDu": "client",
     "sites::BookHongGuo": "client",
     "sites::BookHeMa": "client",
-    "sites::BookAiShiJie": "client",
     "sites::BookAiYueTing": "client",
     "sites::BookAi23TingShu": "client",
     "sites::ChildrenAiBaoBao": "client",
@@ -7887,7 +7842,9 @@
     "sites::YunDuo": "client",
     "sites::DongPian": "client",
     "sites::DyXia": "client",
+    "sites::快映fox": "client",
     "sites::搬运": "client",
+    "sites::稀饭": "client",
     "sites::吉里动漫": "client",
     "sites::球通体育": "client",
     "sites::听友听书": "client",
@@ -8012,18 +7969,6 @@
     "sites::YunPanBa": "client",
     "sites::QiLeSo": "client",
     "sites::market": "client",
-    "sites::js_豆瓣": "dead",
-    "sites::csp_zh_HG影视": "client",
-    "sites::csp_HG影视2": "dead",
-    "sites::csp_xml_资源": "client",
-    "sites::csp_xml_夸克资源": "dead",
-    "sites::csp_xml_量子资源": "alive",
-    "sites::csp_xml_非凡资源": "alive",
-    "sites::HG独家解析2": "client",
-    "sites::解析02": "client",
-    "sites::解析03": "client",
-    "sites::解析05": "client",
-    "sites::解析06": "client",
     "sites::csp_PianKu8": "client",
     "sites::新首发": "client",
     "sites::麦田": "client",
@@ -8149,6 +8094,18 @@
     "sites::drpy_js_有声小说吧": "alive",
     "sites::酷奇MV": "client",
     "sites::少儿": "client",
+    "sites::js_豆瓣": "dead",
+    "sites::csp_zh_HG影视": "client",
+    "sites::csp_HG影视2": "dead",
+    "sites::csp_xml_资源": "client",
+    "sites::csp_xml_夸克资源": "dead",
+    "sites::csp_xml_量子资源": "alive",
+    "sites::csp_xml_非凡资源": "alive",
+    "sites::HG独家解析2": "client",
+    "sites::解析02": "client",
+    "sites::解析03": "client",
+    "sites::解析05": "client",
+    "sites::解析06": "client",
     "lives::https://easyzz.dpdns.org/api/tv.png": "alive",
     "lives::http://45.192.97.170:5211/311758": "dead",
     "lives::https://ghfast.top/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u": "alive",
@@ -8267,7 +8224,7 @@
     "lives::https://raw.gitmirror.com/yw88075/tvbox/main/live.txt": "dead",
     "lives::直播链接自定义": "alive",
     "lives::./lib/live10378.txt": "alive",
-    "lives::https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/CTVLive/main/live.txt": "alive",
+    "lives::https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/CTVLive/main/live.txt": "dead",
     "lives::https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/CTVLive/main/litelive.m3u": "alive",
     "lives::https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/LIVE/ctvpv.txt": "alive",
     "lives::http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/tv.m3u": "dead",
@@ -8309,6 +8266,14 @@
     "lives::./野火改.txt": "alive",
     "lives::./list.txt": "alive",
     "lives::https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt": "dead",
+    "lives::https://cdn.jsdmirror.com/gh/CCSH/IPTV@main/live.txt": "alive",
+    "lives::https://cdn.jsdmirror.com/gh/vbskycn/iptv@master/tv/iptv4.txt": "alive",
+    "lives::https://cdn.jsdmirror.com/gh/CCSH/IPTV@main/live_platforms.m3u": "alive",
+    "lives::https://cdn.jsdmirror.com/gh/CCSH/IPTV@main/others.txt": "alive",
+    "lives::https://iptv.acgomo.top/interface.m3u": "alive",
+    "lives::https://cnb.cool/ayrjk/tvbox/-/git/raw/main/IPTV.txt": "alive",
+    "lives::https://www.korice.eu.org/ppv_m3u.php": "alive",
+    "lives::http://118.89.172.248:8025/jar/zb.php": "alive",
     "lives::http://127.0.0.1:9978/file/XYQTVBox/live.txt": "dead",
     "lives::https://gh.halonice.com/https:/raw.githubusercontent.com/big-mouth-cn/tv/main/iptv-ok.m3u": "dead",
     "lives::https://ghfile.geekertao.top/https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt": "dead",
@@ -8328,7 +8293,6 @@
     "lives::http://php.cqshushu.ggff.net/jzb.php?公众号【医工学习日志】": "dead",
     "lives::https://gh.tryxd.cn/raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt": "dead",
     "lives::http://mg.cttv.vip/migu.php": "alive",
-    "lives::http://118.89.172.248:8025/jar/zb.php": "alive",
     "lives::http://127.0.0.1:9978/proxy?do=cctva": "dead",
     "lives::https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u": "alive",
     "lives::http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/all.m3u": "dead",
@@ -8349,11 +8313,6 @@
     "lives::./lib/yo21.txt": "alive",
     "lives::https://ghfast.top/raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt": "alive",
     "lives::https://ghfast.top/https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt": "alive",
-    "lives::https://json2.hgyx.vip/home/api?type=ys&uid=2941923&key=efghjlsxABEFHIKMOZ&url=": "dead",
-    "lives::https://jx.dmflv.cc/?url=": "dead",
-    "lives::https://www.pangujiexi.com/pangu/?url=": "alive",
-    "lives::https://www.8090.la/8090/?url=": "dead",
-    "lives::https://dmjx.m3u8.tv/?url=": "dead",
     "lives::https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/TV/live20220813.txt": "alive",
     "lives::https://xoxo.cn.mt/Lonely.m3u": "dead",
     "lives::http://lisha521.dynv6.net.fh4u.org/tv.txt": "alive",
@@ -8362,6 +8321,11 @@
     "lives::http://lisha521.dynv6.net.fh4u.org/live.txt": "alive",
     "lives::http://127.0.0.1:10079/c/3600/null/http://lisha521.dynv6.net.fh4u.org/live1.txt": "dead",
     "lives::http://xhztv.top/xhz/live.txt": "alive",
+    "lives::https://json2.hgyx.vip/home/api?type=ys&uid=2941923&key=efghjlsxABEFHIKMOZ&url=": "dead",
+    "lives::https://jx.dmflv.cc/?url=": "dead",
+    "lives::https://www.pangujiexi.com/pangu/?url=": "alive",
+    "lives::https://www.8090.la/8090/?url=": "dead",
+    "lives::https://dmjx.m3u8.tv/?url=": "dead",
     "parses::name": "alive",
     "parses::https://www.ckplayer.vip/jiexi/?url=": "alive",
     "parses::https://yemu.xyz/?url=": "alive",
@@ -8583,9 +8547,7 @@
     "parses::https://jhpc.manduhu.com/j1217.php?url=": "dead",
     "parses::https://za.kuanjv.com/?url=": "dead",
     "parses::https://json.pangujiexi.com:12345/json.php?url=": "dead",
-    "parses::http://www.youhuifuligou.com/json/?id=7&url=": "dead",
-    "parses::https://json2.hgyx.vip/home/api?type=ys&uid=2941923&key=efghjlsxABEFHIKMOZ&url=": "dead",
-    "parses::https://dmjx.m3u8.tv/?url=": "dead",
+    "parses::http://www.youhuifuligou.com/json/?id=7&url=": "alive",
     "parses::影视": "alive",
     "parses::https://test1.12321app.com/daoliansiquanjia.php?url=": "dead",
     "parses::http://nsys.hundong.xyz/api/?key=EdG87gW0IDYarx9ry5&url=": "alive",
@@ -8600,6 +8562,8 @@
     "parses::http://mg.itufm.top/mg.php?url=": "alive",
     "parses::http://154.44.26.196/player/qu.php?v=": "dead",
     "parses::https://t1.qlplayer.cyou/player/?url=": "dead",
-    "parses::https://183933.xyz/xiaye.php?url=": "alive"
+    "parses::https://183933.xyz/xiaye.php?url=": "alive",
+    "parses::https://json2.hgyx.vip/home/api?type=ys&uid=2941923&key=efghjlsxABEFHIKMOZ&url=": "dead",
+    "parses::https://dmjx.m3u8.tv/?url=": "dead"
   }
 }
