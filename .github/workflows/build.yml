@@ -33,9 +33,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Build source (38 CMS + 26 core csp_)
+      - name: Build source (probe alive + 38 CMS + 23 core csp_)
         run: |
-          python aggregate.py
+          python aggregate.py --probe
 
       - name: Verify output
         run: |

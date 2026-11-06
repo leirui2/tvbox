@@ -25,8 +25,8 @@ master:
             git config user.name "cnb-bot"
             git config user.email "cnb-bot@users.noreply.cnb.cool"
 
-            echo "=== 构建(生成自建精简源: 38 CMS + 26 核心 csp_) ==="
-            python aggregate.py
+            echo "=== 构建(探测存活 + 生成自建精简源: 38 CMS + 23 核心 csp_) ==="
+            python aggregate.py --probe
 
             echo "=== 自检产物 ==="
             python -c "import json; d=json.load(open('www/tvbox_self.json',encoding='utf-8')); print('tvbox_self.json sites=%d' % len(d.get('sites',[])))"
