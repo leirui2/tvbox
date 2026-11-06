@@ -1,14 +1,15 @@
 # ==========================================================================
-# CNB (cnb.cool) 定时流水线 —— TVBox 源自动聚合 + 探测 + 推送
+# CNB (cnb.cool) 定时流水线 —— TVBox 自建源自动生成 + 推送
 #
-# 每天定时(Asia/Shanghai 时区)跑 build.py:
-#   1. 聚合 sources/ + dc.txt 远程源
-#   2. 并发探测存活、剔除失效
-#   3. 生成 www/tvbox.json 等产物
-#   4. git push 回本仓库(master 分支)
+# 每天定时(Asia/Shanghai 时区)跑 aggregate.py:
+#   1. 读取 38 个 CMS 接口 + 26 个核心 csp_ 源
+#   2. 生成自建精简源 www/tvbox_self.json
+#   3. git push 回本仓库(master 分支)
 #
 # 零服务器、零依赖(纯 Python 标准库)。
-# TVBox 填本仓库 raw 地址即可: https://cnb.cool/tv-lei/tvbox/-/git/raw/master/www/tvbox.json
+# TVBox 填本仓库 raw 地址即可: https://cnb.cool/tv-lei/tvbox/-/git/raw/master/www/tvbox_self.json
+#
+# 注意: 使用 master 分支（cnb 默认 main 是废弃的旧分支，请忽略）
 # ==========================================================================
 
 master:

@@ -1,11 +1,11 @@
 # ==========================================================================
-# GitHub Actions —— TVBox 源自动聚合 + 探测 + 推送（与 CNB 双平台冗余）
+# GitHub Actions —— TVBox 自建源自动生成 + 推送（与 CNB 双平台冗余）
 #
-# 每天定时(UTC)跑 build.py，生成 www/tvbox.json 并 push 回本仓库 main/master 分支。
+# 每天定时(UTC)跑 aggregate.py，生成 www/tvbox_self.json 并 push 回本仓库 master 分支。
 #
 # 零服务器、零依赖(纯 Python 标准库)。
 # TVBox 填 GitHub raw 地址(可套你的 CF 反代加速):
-#   https://leirui.cc.cd/gh/https://raw.githubusercontent.com/leirui2/tvbox/master/www/tvbox.json
+#   https://leirui.cc.cd/gh/https://raw.githubusercontent.com/leirui2/tvbox/master/www/tvbox_self.json
 # ==========================================================================
 
 name: build-tvbox-source
