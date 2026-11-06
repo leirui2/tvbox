@@ -98,6 +98,8 @@ def _run():
                     help='关闭站点名推广文字清洗(URL/联系方式/推广关键词/更新日期章)')
     ap.add_argument('--no-notify', action='store_true',
                     help='不推送企业微信通知(结果/告警都不推)')
+    ap.add_argument('--keep-lives', action='store_true',
+                    help='产物保留直播源(lives)与 EPG(默认剔除, 因为自用用不到)')
     ap.add_argument('--notify-capture', action='store_true',
                     help='绑定企业微信通知会话: 运行后去企业微信给机器人发任意消息')
     ap.add_argument('--notify-test', action='store_true',
@@ -184,6 +186,17 @@ def _run():
     print('去重后 -> sites=%d lives=%d parses=%d flags=%d' % (
         len(merged.get('sites', [])), len(merged.get('lives', [])),
         len(merged.get('parses', [])), len(merged.get('flags', []))))
+
+    # ---- 直播源/EPG 剔除(默认开启: 自用用不到直播与 EPG) ----
+    if not args.keep_lives:
+        epg_keys = [k for k in ('epg', 'ePg', 'EPG', 'epgs')
+                    if k in merged]
+        merged.pop('lives', None)
+        for k in epg_keys:
+            merged.pop(k, None)
+        print('已剔除直播源(lives)与 EPG(%s) -> 产物仅含点播 sites 与解析 parses'
+              ' (如需保留请加 --keep-lives)'
+              % ('/'.join(epg_keys) if epg_keys else '无 epg 字段'))
 
     # ---- 手动禁用清单: 从合并结果中移除被禁的源 ----
     dl_path = os.path.join(root, 'disable_list.json')

@@ -1,0 +1,57 @@
+# ==========================================================================
+# GitHub Actions —— TVBox 源自动聚合 + 探测 + 推送（与 CNB 双平台冗余）
+#
+# 每天定时(UTC)跑 build.py，生成 www/tvbox.json 并 push 回本仓库 main/master 分支。
+#
+# 零服务器、零依赖(纯 Python 标准库)。
+# TVBox 填 GitHub raw 地址(可套你的 CF 反代加速):
+#   https://leirui.cc.cd/gh/https://raw.githubusercontent.com/leirui2/tvbox/master/www/tvbox.json
+# ==========================================================================
+
+name: build-tvbox-source
+
+on:
+  schedule:
+    # 每天 20:17 UTC = 次日 04:17 Asia/Shanghai（与 CNB 错开，避免同时跑）
+    - cron: "17 20 * * *"
+  workflow_dispatch: {}   # 支持手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Build source (aggregate + probe + generate)
+        run: |
+          python build.py --out www --workers 64 --timeout 5
+
+      - name: Generate self-hosted source (38 CMS + pan + csp_)
+        run: |
+          python aggregate.py
+
+      - name: Verify output
+        run: |
+          python -c "import json; d=json.load(open('www/tvbox.json',encoding='utf-8')); print('tvbox.json sites=%d' % len(d.get('sites',[])))"
+          python -c "import json; d=json.load(open('www/tvbox_self.json',encoding='utf-8')); print('tvbox_self.json sites=%d' % len(d.get('sites',[])))"
+
+      - name: Commit and push
+        run: |
+          git add -A www/ sources/ dc.txt
+          if git diff --cached --quiet; then
+            echo "No changes, skip push"
+            exit 0
+          fi
+          git commit -m "chore: 自动更新源 $(date '+%F %H:%M')"
+          git push origin HEAD:master

@@ -22,3 +22,12 @@ notify_config.json
 deploy/*.env
 .env
 push.env
+
+# 本地临时/备份目录 —— 不提交
+backup_before_proxy_replace/
+
+# 项目本地记忆/数据 —— 不提交
+.workbuddy/
+
+# 备份文件 —— 不提交
+*.bak*

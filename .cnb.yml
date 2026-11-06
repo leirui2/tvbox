@@ -1,0 +1,44 @@
+# ==========================================================================
+# CNB (cnb.cool) 定时流水线 —— TVBox 源自动聚合 + 探测 + 推送
+#
+# 每天定时(Asia/Shanghai 时区)跑 build.py:
+#   1. 聚合 sources/ + dc.txt 远程源
+#   2. 并发探测存活、剔除失效
+#   3. 生成 www/tvbox.json 等产物
+#   4. git push 回本仓库(master 分支)
+#
+# 零服务器、零依赖(纯 Python 标准库)。
+# TVBox 填本仓库 raw 地址即可: https://cnb.cool/tv-lei/tvbox/-/git/raw/master/www/tvbox.json
+# ==========================================================================
+
+master:
+  # 每天 04:17 定时触发(避开整点)。cron 为 Asia/Shanghai 时区。
+  "crontab: 17 4 * * *":
+    - docker:
+        image: python:3.12-slim
+      stages:
+        - name: build
+          script: |
+            set -e
+            echo "=== 配置 git ==="
+            git config user.name "cnb-bot"
+            git config user.email "cnb-bot@users.noreply.cnb.cool"
+
+            echo "=== 构建(聚合 + 探测 + 生成源) ==="
+            python build.py --out www --workers 64 --timeout 5
+
+            echo "=== 生成自建精简源(38 CMS + 网盘 + 精选 csp_) ==="
+            python aggregate.py
+
+            echo "=== 自检产物 ==="
+            python -c "import json; d=json.load(open('www/tvbox.json',encoding='utf-8')); print('tvbox.json sites=%d' % len(d.get('sites',[])))"
+            python -c "import json; d=json.load(open('www/tvbox_self.json',encoding='utf-8')); print('tvbox_self.json sites=%d' % len(d.get('sites',[])))"
+
+            echo "=== 提交并推送 ==="
+            git add -A www/ sources/ dc.txt
+            if git diff --cached --quiet; then
+              echo "无内容变化, 跳过推送"
+              exit 0
+            fi
+            git commit -m "chore: 自动更新源 $(date '+%F %H:%M')"
+            git push origin HEAD:master

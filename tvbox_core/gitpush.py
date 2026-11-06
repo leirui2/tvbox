@@ -16,7 +16,7 @@ def push_git():
        点「构建并推送」时; 有 bash 的环境仍走 deploy/update.sh。
        优先读 deploy/push.env 的 GIT_TOKEN 注入; 否则直接用 remote 已有凭据。"""
     import subprocess
-    remote, branch, user, token = 'origin', 'main', 'cnb', ''
+    remote, branch, user, token, host = 'origin', 'main', 'cnb', '', 'cnb.cool'
     envp = os.path.join(APP_DIR, 'deploy', 'push.env')
     if os.path.exists(envp):
         try:
@@ -35,13 +35,15 @@ def push_git():
                         user = v
                     elif k == 'GIT_TOKEN' and v:
                         token = v
+                    elif k == 'GIT_HOST' and v:
+                        host = v
         except Exception:
             pass
 
     auth = []
     if token:
-        auth = ['-c', 'url.https://%s:%s@cnb.cool/.insteadOf=https://cnb.cool/'
-                % (user, token)]
+        auth = ['-c', 'url.https://%s:%s@%s/.insteadOf=https://%s/'
+                % (user, token, host, host)]
 
     def git(*args):
         try:
@@ -89,7 +91,13 @@ def push_git():
                             'nothing added to commit')):
         return False, 'git commit 失败: %s' % out.strip()
 
-    rc, out = git('push', remote, 'HEAD:%s' % branch)
-    if rc != 0:
-        return False, 'git push 失败: %s' % out.strip()
-    return True, '已推送 -> %s/%s' % (remote, branch)
+    pushed, failed = [], []
+    for r in remote.split():
+        rc, out = git('push', r, 'HEAD:%s' % branch)
+        if rc == 0:
+            pushed.append(r)
+        else:
+            failed.append('%s(%s)' % (r, out.strip()[-120:]))
+    if failed:
+        return False, '推送失败: %s' % '; '.join(failed)
+    return True, '已推送 -> %s/%s' % (', '.join(pushed), branch)
