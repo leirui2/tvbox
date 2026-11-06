@@ -32,6 +32,17 @@ OUT_FILE = os.path.join(OUT_DIR, "tvbox_self.json")
 INDEX_FILE = os.path.join(OUT_DIR, "vod_index.json")
 # 核心 csp_ 源（网盘 + 精选聚合，26 个代表，已固化，不依赖老系统）
 CSP_CORE_FILE = os.path.join(BASE_DIR, "csp_core.json")
+# 解析器 + 首页推荐配置（从老系统提取固化，67 个 parses + 99 个 flags）
+PARSE_FILE = os.path.join(BASE_DIR, "parses_core.json")
+
+
+def _load_parses_flags() -> tuple:
+    """加载解析器和首页推荐配置，返回 (parses, flags)。文件缺失时返回空。"""
+    if os.path.exists(PARSE_FILE):
+        with open(PARSE_FILE, "r", encoding="utf-8") as f:
+            d = json.load(f)
+        return d.get("parses", []), d.get("flags", [])
+    return [], []
 
 
 def build_sites(engine, probe: bool = False) -> list:
@@ -74,15 +85,16 @@ def build_sites(engine, probe: bool = False) -> list:
 def build_config(engine, probe: bool = False) -> dict:
     """生成完整的 TVBox 配置 JSON"""
     sites = build_sites(engine, probe=probe)
+    parses, flags = _load_parses_flags()
 
     config = {
         "sites": sites,
-        # 解析器留空——这些 CMS 接口的 vod_play_url 已含直链，无需解析
-        "parses": [],
+        # 解析器：很多 CMS 站的 m3u8 是加密/鉴权地址，必须靠 parses 解析才能播
+        "parses": parses,
         # 直播源留空，以后可单独加
         "lives": [],
-        # 可选：首页推荐（留空，由 App 端按分类展示）
-        "flags": [],
+        # 首页推荐：识别 vod_name 里的站点标签（youku/腾讯/爱奇艺 等）走对应线路
+        "flags": flags,
     }
     return config
 
