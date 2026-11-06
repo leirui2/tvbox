@@ -24,18 +24,14 @@ master:
             git config user.name "cnb-bot"
             git config user.email "cnb-bot@users.noreply.cnb.cool"
 
-            echo "=== 构建(聚合 + 探测 + 生成源) ==="
-            python build.py --out www --workers 64 --timeout 5
-
-            echo "=== 生成自建精简源(38 CMS + 网盘 + 精选 csp_) ==="
+            echo "=== 构建(生成自建精简源: 38 CMS + 26 核心 csp_) ==="
             python aggregate.py
 
             echo "=== 自检产物 ==="
-            python -c "import json; d=json.load(open('www/tvbox.json',encoding='utf-8')); print('tvbox.json sites=%d' % len(d.get('sites',[])))"
             python -c "import json; d=json.load(open('www/tvbox_self.json',encoding='utf-8')); print('tvbox_self.json sites=%d' % len(d.get('sites',[])))"
 
             echo "=== 提交并推送 ==="
-            git add -A www/ sources/ dc.txt
+            git add -A www/ csp_core.json
             if git diff --cached --quiet; then
               echo "无内容变化, 跳过推送"
               exit 0

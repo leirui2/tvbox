@@ -26,20 +26,12 @@ import time
 import hashlib
 from engine import CmsEngine
 
-# 复用 filter_csp 的筛选纯函数，把「网盘类 + 精选聚合类」csp_ 源并入自建源
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "tools"))
-try:
-    from filter_csp import filter_csp_sites
-except ImportError:
-    filter_csp_sites = None
-
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 OUT_DIR = os.path.join(BASE_DIR, "www")
 OUT_FILE = os.path.join(OUT_DIR, "tvbox_self.json")
 INDEX_FILE = os.path.join(OUT_DIR, "vod_index.json")
-# 输出一份「标准源文件」到 sources/，供老系统 build.py 自动合并进主源 tvbox.json。
-# 这样新引擎的 38 个接口就并入了老系统的 4493 源，电视仍填原地址，无需换地址。
-SRC_FILE = os.path.join(BASE_DIR, "sources", "self_cms.json")
+# 核心 csp_ 源（网盘 + 精选聚合，26 个代表，已固化，不依赖老系统）
+CSP_CORE_FILE = os.path.join(BASE_DIR, "csp_core.json")
 
 
 def build_sites(engine, probe: bool = False) -> list:
@@ -93,16 +85,6 @@ def build_config(engine, probe: bool = False) -> dict:
         "flags": [],
     }
     return config
-
-
-def build_source_file(engine, probe: bool = False) -> dict:
-    """生成一份「标准源文件」用于并入老系统 build.py。
-
-    与 build_config 的区别：只含 sites（老系统合并器会忽略 flags 等），
-    字段与 sources/ 里 type=1 站点完全一致，老系统 merge 时能正确去重合并。
-    """
-    sites = build_sites(engine, probe=probe)
-    return {"sites": sites}
 
 
 def build_index(engine, max_per_site: int = 50) -> dict:
@@ -164,44 +146,32 @@ def main():
 
     # 1. 生成源配置
     config = build_config(engine, probe=probe)
+    print(f"\n已生成源配置（CMS）: {len(config['sites'])} 站点")
+
+    # 1.5 从 csp_core.json 读取核心 csp_ 源（网盘 + 精选聚合，26 个代表），并入自建源
+    if os.path.exists(CSP_CORE_FILE):
+        with open(CSP_CORE_FILE, "r", encoding="utf-8") as f:
+            csp_core = json.load(f)
+        csp_sites = csp_core.get("sites", [])
+        existing_keys = {s.get("key") for s in config["sites"]}
+        added = 0
+        for s in csp_sites:
+            if s.get("key") in existing_keys:
+                continue
+            config["sites"].append(s)
+            existing_keys.add(s.get("key"))
+            added += 1
+        print(f"已并入 {added} 个核心 csp_ 源，总站点 {len(config['sites'])}")
+    else:
+        print(f"提示: 未找到 {CSP_CORE_FILE}，跳过 csp_ 源合并")
+
+    # 2. 落盘最终自建源
     with open(OUT_FILE, "w", encoding="utf-8") as f:
         json.dump(config, f, ensure_ascii=False, indent=2)
-    print(f"\n已生成源配置: {OUT_FILE}")
+    print(f"已生成源配置: {OUT_FILE}")
     print(f"  站点数: {len(config['sites'])}")
 
-    # 1.5 生成标准源文件，喂给老系统 build.py 合并进主源
-    src_cfg = build_source_file(engine, probe=probe)
-    os.makedirs(os.path.dirname(SRC_FILE), exist_ok=True)
-    with open(SRC_FILE, "w", encoding="utf-8") as f:
-        json.dump(src_cfg, f, ensure_ascii=False, indent=2)
-    print(f"已生成源文件: {SRC_FILE}")
-    print(f"  （老系统 build.py 会自动合并它，站点并入主源 tvbox.json）")
-
-    # 1.6 从老系统 tvbox.json 筛选「网盘类 + 精选聚合类」csp_ 源，并入自建源
-    #     这样自建源 = 38 CMS + 网盘 + 精选 csp_，每次构建幂等。
-    if filter_csp_sites is not None:
-        old_tvbox = os.path.join(OUT_DIR, "tvbox.json")
-        if os.path.exists(old_tvbox):
-            with open(old_tvbox, "r", encoding="utf-8") as f:
-                old_cfg = json.load(f)
-            csp_sites = filter_csp_sites(old_cfg.get("sites", []))
-            existing_keys = {s.get("key") for s in config["sites"]}
-            added = 0
-            for s in csp_sites:
-                if s.get("key") in existing_keys:
-                    continue
-                config["sites"].append(s)
-                existing_keys.add(s.get("key"))
-                added += 1
-            if added:
-                # 重写 tvbox_self.json（因为上面已经写入过，这里重新落盘）
-                with open(OUT_FILE, "w", encoding="utf-8") as f:
-                    json.dump(config, f, ensure_ascii=False, indent=2)
-            print(f"已并入 {added} 个 csp_ 源到自建源，总站点 {len(config['sites'])}")
-        else:
-            print("提示: 未找到 www/tvbox.json，跳过 csp_ 源合并（可先跑 build.py）")
-
-    # 2. 可选：生成片库索引
+    # 3. 可选：生成片库索引
     if build_idx:
         index = build_index(engine)
         with open(INDEX_FILE, "w", encoding="utf-8") as f:

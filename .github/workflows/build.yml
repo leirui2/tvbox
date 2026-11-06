@@ -33,22 +33,17 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Build source (aggregate + probe + generate)
-        run: |
-          python build.py --out www --workers 64 --timeout 5
-
-      - name: Generate self-hosted source (38 CMS + pan + csp_)
+      - name: Build source (38 CMS + 26 core csp_)
         run: |
           python aggregate.py
 
       - name: Verify output
         run: |
-          python -c "import json; d=json.load(open('www/tvbox.json',encoding='utf-8')); print('tvbox.json sites=%d' % len(d.get('sites',[])))"
           python -c "import json; d=json.load(open('www/tvbox_self.json',encoding='utf-8')); print('tvbox_self.json sites=%d' % len(d.get('sites',[])))"
 
       - name: Commit and push
         run: |
-          git add -A www/ sources/ dc.txt
+          git add -A www/ csp_core.json
           if git diff --cached --quiet; then
             echo "No changes, skip push"
             exit 0
