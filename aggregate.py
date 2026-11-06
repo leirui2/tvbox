@@ -69,7 +69,8 @@ def build_sites(engine, probe: bool = False) -> list:
         key = re.sub(r"\s+", "", key)  # 去掉所有空白
         if not key:
             key = u["api"].split("/")[2]
-        sites.append({
+
+        site = {
             "key": key,
             "name": u["name"],
             "type": 1,
@@ -78,7 +79,22 @@ def build_sites(engine, probe: bool = False) -> list:
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-        })
+        }
+
+        # 关键：部分 CMS 站只认 tid 参数（不认 t），TVBox 默认用 t 会导致列表为空。
+        # 这类站点必须补 categories（写死分类名），App 才会改用 tid 请求。
+        try:
+            param = engine._detect_tid_param(u["api"])
+        except Exception:
+            param = "t"
+        if param == "tid":
+            classes = engine.fetch_classes(u["name"])
+            cat_names = [c["type_name"] for c in classes if c.get("type_name")]
+            if cat_names:
+                site["categories"] = cat_names
+                site["playerType"] = 2  # 标记为 tid 型（与老系统一致）
+
+        sites.append(site)
     return sites
 
 
