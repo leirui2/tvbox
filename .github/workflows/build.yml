@@ -10,6 +10,9 @@
 
 name: build-tvbox-source
 
+permissions:
+  contents: write
+
 on:
   schedule:
     # 每天 20:17 UTC = 次日 04:17 Asia/Shanghai（与 CNB 错开，避免同时跑）
